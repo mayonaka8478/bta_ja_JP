@@ -1,2 +1,2 @@
-# bta_ja_JP
-BTA(Better Than Adventure)の日本語ランゲージパック
+# Better than Adventure!日本語化ランゲージパック
+翻訳に参加する方法は後々ここに書き足します
