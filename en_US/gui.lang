@@ -1,0 +1,409 @@
+gui.achievement.label.get=Achievement Get!
+gui.achievement.label.unlicensed.1=Better than Adventure! %s Unlicensed Copy :(
+gui.achievement.label.unlicensed.2=(Or logged in from another location)
+gui.achievement.label.unlicensed.3=Purchase at minecraft.net
+
+gui.achievements.button.done=Done
+gui.achievements.label.title=Achievements
+gui.achievements.label.taken=Taken!
+gui.achievements.label.requires=Requires '%1$s'
+gui.achievements.label.completion=%1$s Complete!
+
+gui.achievements.page.vanilla.name=Vanilla
+gui.achievements.page.vanilla.desc=Achievements from Better than Adventure!
+gui.achievements.page.overworld.name=Overworld
+gui.achievements.page.overworld.desc=Achievements of the starting dimension!
+gui.achievements.page.nether.name=Nether
+gui.achievements.page.nether.desc=Achievements from Hell!
+
+gui.add_server.label.title=Add server
+gui.add_server.button.save=Save
+gui.add_server.button.cancel=Cancel
+gui.add_server.button.show_ip=Show IP: %s
+gui.add_server.button.show_ip.on=ON
+gui.add_server.button.show_ip.off=OFF
+gui.add_server.label.server_name=Server name
+gui.add_server.label.ip_address=IP address
+
+gui.bad_java_arch.label.title=32-bit Java detected!
+gui.bad_java_arch.label.body.1=It looks like you're running Better than Adventure on 32-bit Java.
+gui.bad_java_arch.label.body.2=This can cause problems with memory allocation, including lag spikes
+gui.bad_java_arch.label.body.3=and potentially crashes.
+gui.bad_java_arch.label.body.4=Please consider downloading a 64-bit JRE such as Eclipse Temurin.
+gui.bad_java_arch.button.download=Download
+gui.bad_java_arch.button.continue=Continue
+
+gui.no_jce.label.title=Java Cryptography Extension (JCE) not present!
+gui.no_jce.label.body.1=It looks like you're running Better than Adventure! without JCE.
+gui.no_jce.label.body.2=This will break some network related features like downloading
+gui.no_jce.label.body.3=sounds and multiplayer chatting!
+gui.no_jce.label.body.4=Please consider downloading a more up to date JRE
+gui.no_jce.label.body.5=with the extension included such as Eclipse Temurin.
+gui.no_jce.label.body.intel.disclaimer.1=Due to hardware compatibility issues on Intel Graphics hardware
+gui.no_jce.label.body.intel.disclaimer.2=you will likely have to patch your existing Java install to
+gui.no_jce.label.body.intel.disclaimer.3=include the JCE extension.
+gui.no_jce.button.download.recommended=Java Download (Recommended!)
+gui.no_jce.button.download=Java Download
+gui.no_jce.button.upgrade=JCE Patch
+gui.no_jce.button.upgrade.recommended=JCE Patch (Recommended!)
+gui.no_jce.button.continue=Continue
+
+gui.no_minecraft.label.title=Minecraft Beta 1.7.3 is Missing!
+gui.no_minecraft.label.body.1=It looks like you're running Better than Adventure! without Minecraft Beta 1.7.3.
+gui.no_minecraft.label.body.2=Better than Adventure! must be installed with an official copy of
+gui.no_minecraft.label.body.3=Minecraft Beta 1.7.3 in order to function properly.
+gui.no_minecraft.label.body.4=This issue normally happens if you made a mistake in the installation process.
+gui.no_minecraft.label.body.5=Please review the install guide linked below.
+gui.no_minecraft.button.guide=Install Guide
+gui.no_minecraft.button.quit=Quit Game
+
+
+gui.conflict_warning.label.title=Level safe conflict
+gui.conflict_warning.label.body.1=Minecraft detected a conflict in the level save data.
+gui.conflict_warning.label.body.2=This could be caused by two copies of the game
+gui.conflict_warning.label.body.3=accessing the same level.
+gui.conflict_warning.label.body.4=To prevent level corruption, the current game has quit.
+gui.conflict_warning.button.back=Back to title screen
+
+gui.connect_failed.label.title=Failed to connect to the server
+gui.connect_failed.button.back=Back to title screen
+
+gui.connect_to_ip.button.connect=Connect
+gui.connect_to_ip.button.cancel=Cancel
+gui.connect_to_ip.label.title=Connect to IP
+gui.connect_to_ip.label.enter_ip=Enter the IP of a server to connect to it:
+
+gui.connecting.button.cancel=Cancel
+gui.connecting.label.connecting=Connecting to the server...
+gui.connecting.label.logging_in=Logging in...
+
+gui.controller_setup.button.back=Back
+gui.controller_setup.label.no_controller_selected=No controller selected!
+
+gui.crafting.label.crafting=Crafting
+gui.crafting.label.inventory=Inventory
+
+gui.create_world.label.title=Create New World
+gui.create_world.label.world_name=World Name
+gui.create_world.label.seed=Seed
+gui.create_world.button.create_new_world=Create New World
+gui.create_world.button.cancel=Cancel
+gui.create_world.button.gamemode=Mode: %s
+gui.create_world.button.cheats=Cheats: %s
+gui.create_world.button.cheats.on=ON
+gui.create_world.button.cheats.off=OFF
+gui.create_world.button.world_type=World Type: %s
+gui.create_world.label.new_world=New World
+gui.create_world.label.select_world_type=Select World Type
+
+gui.create_world.label.title=Create New World
+gui.create_world.button.cancel=Cancel
+gui.create_world.button.create_world=Create World
+
+gui.create_world.pages.general.title=General
+gui.create_world.pages.general.label.world_name=World Name
+gui.create_world.pages.general.label.world_seed=World Seed
+gui.create_world.pages.world_settings.title=World Settings
+gui.create_world.pages.game_rules.title=Game Rules
+
+gui.dispenser.label.dispenser=Dispenser
+gui.dispenser.label.inventory=Inventory
+
+gui.activator.label.activator=Activator
+gui.activator.label.inventory=Inventory
+
+gui.downloading_terrain.label.title=Downloading Terrain
+
+gui.edit_flag.label.inventory=Inventory
+
+gui.edit_label.label.title=Edit label text:
+gui.edit_label.button.done=Done
+
+gui.edit_sign.label.title=Edit sign message:
+gui.edit_sign.button.done=Done
+
+gui.exception.label.exception_occurred=An exception has occurred!
+gui.exception.label.fatal_error=A fatal error has occurred!
+gui.exception.label.startup_error=Minecraft has failed to start!
+gui.exception.button.copy_error=Copy error
+gui.exception.button.copy_error_and_quit=Copy error and quit
+gui.exception.button.back=Back to title screen
+
+gui.furnace.label.furnace=Furnace
+gui.furnace.blast.label.blast_furnace=Blast Furnace
+gui.furnace.label.inventory=Inventory
+
+gui.game_over.label.title=Game over!
+gui.game_over.label.score=Score: %s
+gui.game_over.button.respawn=Respawn
+gui.game_over.button.respawn.spectator=Spectate
+gui.game_over.button.title_screen=Title Screen
+
+gui.guidebook.label.title=Guidebook
+
+gui.ingame.label.now_playing=Now playing: %s
+
+gui.ingame_menu.label.title=Game Menu
+gui.ingame_menu.label.score=Score: %s
+gui.ingame_menu.label.saving=Saving...
+gui.ingame_menu.button.save_and_quit=Save and quit to title
+gui.ingame_menu.button.disconnect=Disconnect
+gui.ingame_menu.button.back_to_game=Back to game
+gui.ingame_menu.button.options=Options...
+gui.ingame_menu.button.photo_mode=Photo Mode...
+gui.ingame_menu.button.achievements=Achievements
+gui.ingame_menu.button.statistics=Statistics
+
+gui.inventory.label.crafting=Crafting
+gui.inventory.creative.label.search=Search...
+
+gui.loading.label.generating=Generating level...
+gui.loading.label.loading=Loading level...
+gui.loading.label.entering=Entering %s...
+gui.loading.label.leaving=Leaving %s...
+
+gui.main_menu.label.splash.jonkadelic_birthday=Happy birthday, Jonkadelic!
+gui.main_menu.label.splash.maggandgeez_birthday=Happy birthday, MaggAndGeez!
+gui.main_menu.label.splash.minecraft_birthday=Happy birthday, Minecraft!
+gui.main_menu.label.splash.bta_birthday=Happy birthday, Better than Adventure!
+gui.main_menu.label.splash.xmas=Merry X-mas!
+gui.main_menu.label.splash.halloween=Happy Halloween!
+gui.main_menu.label.splash.new_year=Happy New Year!
+gui.main_menu.label.disclaimer.1=Copyright Mojang Studios. Not an official Minecraft product.
+gui.main_menu.label.disclaimer.2=Not approved by or associated with Mojang Studios or Microsoft.
+gui.main_menu.label.downloading_resources.1=Downloading resources: %s / %s
+gui.main_menu.label.downloading_resources.2=Sounds may not play during this process!
+gui.main_menu.button.singleplayer=Singleplayer
+gui.main_menu.button.multiplayer=Multiplayer
+gui.main_menu.button.multiplayer.disabled=Multiplayer (not ready yet!)
+gui.main_menu.button.asset_packs=Asset Packs
+gui.main_menu.button.options=Options...
+gui.main_menu.button.quit_game=Quit Game
+gui.main_menu.button.discord=Discord
+gui.main_menu.button.youtube=YouTube
+gui.main_menu.button.website=Website
+gui.main_menu.button.credits=Credits
+
+gui.out_of_memory.label.title=Out of memory!
+gui.out_of_memory.label.body.1=Minecraft has run out of memory.
+gui.out_of_memory.label.body.2=This could be caused by a bug in the game or by the
+gui.out_of_memory.label.body.3=Java Virtual Machine not being allocated enough
+gui.out_of_memory.label.body.4=memory.
+gui.out_of_memory.label.body.5=To prevent level corruption, the current game has quit.
+gui.out_of_memory.label.body.6=Please restart the game.
+
+gui.options.title=Options
+gui.options.button.done=Done
+gui.options.label.select_page=Select Page
+gui.options.label.picking_keybinding=Press a key or mouse button to set it as the keybinding for '%s'.
+
+gui.options.page.general.title=General
+gui.options.page.general.button.open_worlds_folder=Open Worlds Folder
+gui.options.page.general.button.open_screenshots_folder=Open Screenshots Folder
+gui.options.page.general.button.edit_hud=Edit HUD...
+gui.options.page.general.category.gameplay=Gameplay
+gui.options.page.general.category.user_interface=User Interface
+gui.options.page.general.category.miscellaneous=Miscellaneous
+
+gui.options.page.player.title=Player
+gui.options.page.player.category.player=Player
+
+gui.options.page.audio.title=Audio
+gui.options.page.audio.category.audio=Audio
+gui.options.page.audio.category.debug=Debug
+
+gui.options.page.accessibility.title=Accessibility
+gui.options.page.accessibility.category.accessibility=Accessibility
+
+gui.options.page.video.title=Video
+gui.options.page.video.category.graphics=Graphics
+gui.options.page.video.category.performance=Performance
+gui.options.page.video.category.post_processing=Post-Processing
+gui.options.page.video.category.visuals=Visuals
+
+gui.options.page.controls.title=Controls
+gui.options.page.controls.button.controller_setup=Controller Setup...
+gui.options.page.controls.button.key.unbound=Unbound
+gui.options.page.controls.category.mouse=Mouse
+gui.options.page.controls.category.keyboard=Keyboard
+gui.options.page.controls.category.controller=Controller
+gui.options.page.controls.category.interactions=Interactions
+gui.options.page.controls.category.movement=Movement
+gui.options.page.controls.category.user_interface=User Interface
+gui.options.page.controls.category.hotbar=Hotbar
+gui.options.page.controls.category.view=View
+gui.options.page.controls.category.miscellaneous=Miscellaneous
+
+gui.options.page.asset_packs.title=Asset Packs
+gui.options.page.asset_packs.category.textures=Textures
+gui.options.page.asset_packs.category.asset_packs.available=Available Asset Packs
+gui.options.page.asset_packs.category.asset_packs.selected=Selected Asset Packs
+gui.options.page.asset_packs.button.open_folder=Open Folder
+gui.options.page.asset_packs.button.apply=Apply Asset Packs
+gui.options.page.asset_packs.label.no_packs=No asset packs found :(
+gui.options.page.asset_packs.label.outdated_pack.1=Outdated pack!
+gui.options.page.asset_packs.label.outdated_pack.2=This pack was not made for this version of BTA!
+
+gui.options.page.language_packs.title=Language Packs
+gui.options.page.language_packs.category.language_packs=Language Packs
+gui.options.page.language_packs.button.open_folder=Open Folder
+
+gui.options.page.debug.title=Debug Menu
+gui.options.page.debug.category.controls=Debug Controls
+gui.options.page.debug.category.utility=Utilities
+gui.options.page.debug.category.settings=Settings
+gui.options.page.debug.category.test=Tests
+gui.options.page.debug.button.open.model_viewer=Open Model Viewer
+gui.options.page.debug.button.open.biome_finder=Open Seed Viewer
+gui.options.page.debug.button.open.datadumper=Run Data Dumper
+gui.options.page.debug.button.open.sound_test=Open Sound Test
+gui.options.page.debug.button.open.texture_viewer=Open Texture Viewer
+gui.options.page.debug.button.open.font_tester=Open Font Test
+gui.options.page.debug.button.open.achievements=Open Achievements
+gui.options.page.debug.button.wipestats=Delete Stats
+gui.options.page.debug.button.unlockedall=Unlock all stats
+gui.options.page.debug.button.cheat=Enable Cheats
+gui.options.page.debug.button.crash.soft=Crash Soft
+gui.options.page.debug.button.crash.hard=Crash Hard
+gui.options.page.debug.button.music.skip=Force Ambient Music
+gui.options.page.debug.button.garbage_collect=Run Garbage Collector
+
+gui.options.page.search.title=Search
+
+gui.sound_test.label.title=Sound Test
+gui.sound_test.label.repo=Sound Repository: %s
+gui.sound_test.label.id=ID: %s
+gui.sound_test.label.subtitle=Subtitle: %s | %s
+gui.sound_test.label.url=URL: %s
+gui.sound_test.label.select_repo=Select Repo:
+gui.sound_test.label.select_entry=Select Entry:
+gui.sound_test.button.done=Done
+gui.sound_test.button.play=Play
+gui.sound_test.button.play_stream=Play Stream
+gui.sound_test.button.reload=Reload
+gui.sound_test.button.stop=Stop
+
+gui.texture_viewer.label.title=Texture Viewer
+
+gui.photo_mode.label.mouse_hint=Click and drag to move and rotate.
+gui.photo_mode.button.take_screenshot=Take Screenshot
+gui.photo_mode.button.center_camera=Center Camera
+gui.photo_mode.button.show_player=Show Player: %s
+gui.photo_mode.button.show_player.on=ON
+gui.photo_mode.button.show_player.off=OFF
+gui.photo_mode.button.time_of_day=Time of Day: %s
+gui.photo_mode.button.time_of_day.default=DEFAULT
+gui.photo_mode.button.season=Season: %s
+gui.photo_mode.button.season.default=DEFAULT
+gui.photo_mode.button.fog=Fog: %s
+gui.photo_mode.button.tilt=Tilt: %s
+gui.photo_mode.button.tilt.default=DEFAULT
+gui.photo_mode.button.shader=Shader: %s
+gui.photo_mode.button.shader.none=NONE
+gui.photo_mode.button.intensity=Intensity: %s
+
+gui.select_server.label.title=Select Server
+gui.select_server.label.delete_title=Delete Server
+gui.select_server.label.delete_confirm.1=Are you sure you want to delete this server?
+gui.select_server.label.delete_confirm.2='%s' will be lost forever! (A long time!)
+gui.select_server.label.edit.1=Edit Server
+gui.select_server.label.edit.2=Server Name
+gui.select_server.label.edit.3=Server Address
+gui.select_server.label.down=DOWN
+gui.select_server.label.outdated=OUTDATED
+gui.select_server.button.join_server=Join Server
+gui.select_server.button.direct_connect=Direct Connect
+gui.select_server.button.add_server=Add Server
+gui.select_server.button.edit=Edit
+gui.select_server.button.delete=Delete
+gui.select_server.button.refresh=Refresh
+gui.select_server.button.cancel=Cancel
+gui.select_server.button.done=Done
+gui.select_server.button.show_ip=Show IP: %s
+gui.select_server.button.show_ip.on=ON
+gui.select_server.button.show_ip.off=OFF
+
+gui.select_world.label.title=Select World
+gui.select_world.label.world=World %s
+gui.select_world.label.must_be_converted=Must be converted!
+gui.select_world.label.dimension_corrupted=Error Dimension Corrupted!
+gui.select_world.label.outdated=Outdated - can't be loaded (yet!)
+gui.select_world.label.delete_title=Delete World
+gui.select_world.label.delete_confirm.1=Are you sure you want to delete this world?
+gui.select_world.label.delete_confirm.2='%s' will be lost forever! (A long time!)
+gui.select_world.label.rename_title=Rename World
+gui.select_world.label.world_name=World Name
+gui.select_world.label.cheats=Cheats
+gui.select_world.label.unknown=UNKNOWN
+gui.select_world.button.play_selected_world=Play Selected World
+gui.select_world.button.rename=Rename
+gui.select_world.button.create_new_world=Create New World
+gui.select_world.button.delete=Delete
+gui.select_world.button.cancel=Cancel
+
+gui.sleeping.leave_bed=Leave Bed
+gui.sleeping.multiplayer.leave_bed=Leave Bed
+
+gui.statistics.label.title=Statistics
+gui.statistics.label.times_used=Times Used
+gui.statistics.label.times_mined=Times Mined
+gui.statistics.label.times_depleted=Times Depleted
+gui.statistics.label.times_crafted=Times Crafted
+gui.statistics.button.done=Done
+gui.statistics.button.general=General
+gui.statistics.button.blocks=Blocks
+gui.statistics.button.items=Items
+
+gui.trommel.label.trommel=Trommel
+gui.trommel.label.inventory=Inventory
+
+gui.hud_designer.button.done=Done
+
+gui.pick_monster.label.title=Select mob to spawn
+
+gui.model_viewer.slider.variant=Variant: %d
+gui.model_viewer.slider.meta=Meta: %d
+gui.model_viewer.button.tickprogress=Run Tick: %s
+gui.model_viewer.button.bulk_render=Bulk Render
+gui.model_viewer.button.rotate=Rotate Labels: %s
+gui.model_viewer.button.reload_textures=Reload Textures
+gui.model_viewer.button.category=Category
+
+model.category.entity.info=Entity: %s
+model.category.entity.name=Entity
+model.category.entity.tnt.slider.fuse=Fuse: %d
+model.category.entity.sheep.slider.color=Color: %s
+model.category.entity.painting.slider.motif=Painting: %s
+model.category.entity.fireflycluster.slider.size=Size: %d
+model.category.entity.fireflycluster.button.cycle=Color: %s
+model.category.entity.item.button.cycle=Cycle Item
+model.category.entity.item.slider.size=Size: %d
+model.category.entity.sand.button.cycle=Cycle Block
+model.category.entity.creeper.button.charged=Charged: %s
+model.category.entity.armored_zombie.button.sword=Sword: %s
+model.category.entity.wolf.button.tamed=Tamed: %s
+model.category.entity.wolf.button.sitting=Sitting: %s
+model.category.entity.wolf.button.angry=Angry: %s
+model.category.entity.wolf.button.armor=Armor: %s
+model.category.entity.wolf.button.item=Item: %s
+model.category.entity.boat.button.flag=Flag: %s
+model.category.entity.boat.button.wind=Wind: %s degrees
+model.category.entity.slime.slider.size=Slime: %s
+model.category.entity.minecart.button.cycle=Cycle Minecart
+model.category.entity.minecart.slider.color=Color: %s
+
+model.category.block.name=Block
+model.category.block.info=Block: %s
+model.category.block.basket.slider.fill=Fill: %s
+model.category.block.spawner.button.id=Mob: %s
+
+model.category.particle.name=Particle
+model.category.particle.info=Particle: %s
+model.category.particle.radius.slider=Radius: %s
+model.category.particle.note.slider=Note: %s
+model.category.particle.block.side=Side: %s
+
+gui.credits.button.done=Done
+gui.credits.label.title=Credits
+
+gui.tooltip.prompt.description=%s: Show more...

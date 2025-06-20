@@ -1,0 +1,409 @@
+gui.achievement.label.get=実績解除！
+gui.achievement.label.unlicensed.1=Better than Adventure! %sは無許可コピー
+gui.achievement.label.unlicensed.2=または、別の場所からのログインです:(
+gui.achievement.label.unlicensed.3=正規品をminecraft.netで購入してください
+
+gui.achievements.button.done=完了
+gui.achievements.label.title=実績
+gui.achievements.label.taken=獲得！
+gui.achievements.label.requires=「%1$s」が必要です
+gui.achievements.label.completion=%1$s Complete!
+
+gui.achievements.page.vanilla.name=Vanilla
+gui.achievements.page.vanilla.desc=Achievements from Better than Adventure!
+gui.achievements.page.overworld.name=Overworld
+gui.achievements.page.overworld.desc=Achievements of the starting dimension!
+gui.achievements.page.nether.name=Nether
+gui.achievements.page.nether.desc=Achievements from Hell!
+
+gui.add_server.label.title=サーバーを追加
+gui.add_server.button.save=保存
+gui.add_server.button.cancel=キャンセル
+gui.add_server.button.show_ip=IPを表示: %s
+gui.add_server.button.show_ip.on=オン
+gui.add_server.button.show_ip.off=オフ
+gui.add_server.label.server_name=サーバー名
+gui.add_server.label.ip_address=IPアドレス
+
+gui.bad_java_arch.label.title=32-bit Javaが検出されました！
+gui.bad_java_arch.label.body.1=32-bit JavaでBetter than Adventureを実行しているようですが
+gui.bad_java_arch.label.body.2=これにより、ラグの増加やクラッシュなどのメモリ割り当ての
+gui.bad_java_arch.label.body.3=問題が発生する可能性があります
+gui.bad_java_arch.label.body.4=Eclipse Temurin等の64-bit JREを使用することをご検討ください
+gui.bad_java_arch.button.download=ダウンロード
+gui.bad_java_arch.button.continue=続ける
+
+gui.no_jce.label.title=Java Cryptography Extension (JCE) not present!
+gui.no_jce.label.body.1=It looks like you're running Better than Adventure! without JCE.
+gui.no_jce.label.body.2=This will break some network related features like downloading
+gui.no_jce.label.body.3=sounds and multiplayer chatting!
+gui.no_jce.label.body.4=Please consider downloading a more up to date JRE
+gui.no_jce.label.body.5=with the extension included such as Eclipse Temurin.
+gui.no_jce.label.body.intel.disclaimer.1=Due to hardware compatibility issues on Intel Graphics hardware
+gui.no_jce.label.body.intel.disclaimer.2=you will likely have to patch your existing Java install to
+gui.no_jce.label.body.intel.disclaimer.3=include the JCE extension.
+gui.no_jce.button.download.recommended=Java Download (Recommended!)
+gui.no_jce.button.download=Java Download
+gui.no_jce.button.upgrade=JCE Patch
+gui.no_jce.button.upgrade.recommended=JCE Patch (Recommended!)
+gui.no_jce.button.continue=Continue
+
+gui.no_minecraft.label.title=Minecraft Beta 1.7.3が見つかりません！
+gui.no_minecraft.label.body.1=Minecraft Beta 1.7.3を未インストールの状態でBetter than Adventureを実行しているようです
+gui.no_minecraft.label.body.2=Better than Adventureを正しく動作させるには、
+gui.no_minecraft.label.body.3=公式のMinecraft Beta 1.7.3をインストールする必要があります
+gui.no_minecraft.label.body.4=このエラーは基本、Better than Adventureのインストールをする過程において何らかのミスをした場合に起こります
+gui.no_minecraft.label.body.5=下記リンクのインストールガイドをご覧ください
+gui.no_minecraft.button.guide=インストールガイド
+gui.no_minecraft.button.quit=終了
+
+
+gui.conflict_warning.label.title=セーブデータ競合防止機能
+gui.conflict_warning.label.body.1=Minecraftからセーブデータの競合が検出されました
+gui.conflict_warning.label.body.2=これは複数のMinecraftから同じセーブデータに
+gui.conflict_warning.label.body.3=アクセスすることで発生することがあります
+gui.conflict_warning.label.body.4=セーブデータの破損を防ぐため、現在開いているゲームは終了しました
+gui.conflict_warning.button.back=タイトル画面へ戻る
+
+gui.connect_failed.label.title=サーバーへの接続に失敗しました
+gui.connect_failed.button.back=タイトル画面へ戻る
+
+gui.connect_to_ip.button.connect=接続
+gui.connect_to_ip.button.cancel=キャンセル
+gui.connect_to_ip.label.title=IPで接続
+gui.connect_to_ip.label.enter_ip=サーバーに接続するためのIPを入力してください:
+
+gui.connecting.button.cancel=キャンセル
+gui.connecting.label.connecting=サーバーに接続中...
+gui.connecting.label.logging_in=ログイン中...
+
+gui.controller_setup.button.back=戻る
+gui.controller_setup.label.help.1=コントローラーが検出されない場合は、コントローラを
+
+gui.crafting.label.crafting=クラフト
+gui.crafting.label.inventory=持ち物
+
+gui.create_world.label.title=ワールドを新規作成
+gui.create_world.label.world_name=ワールド名
+gui.create_world.label.seed=シード値
+gui.create_world.button.create_new_world=ワールドを新規作成
+gui.create_world.button.cancel=キャンセル
+gui.create_world.button.gamemode=ゲームモード: %s
+gui.create_world.button.cheats=チート: %s
+gui.create_world.button.cheats.on=オン
+gui.create_world.button.cheats.off=オフ
+gui.create_world.button.world_type=ワールドタイプ: %s
+gui.create_world.label.new_world=新規ワールド
+gui.create_world.label.select_world_type=ワールドタイプの選択
+
+gui.create_world.label.title=ワールドを新規作成
+gui.create_world.button.cancel=キャンセル
+gui.create_world.button.create_world=ワールドを作成
+
+gui.create_world.pages.general.title=一般
+gui.create_world.pages.general.label.world_name=ワールド名
+gui.create_world.pages.general.label.world_seed=シード値
+gui.create_world.pages.world_settings.title=ワールド設定
+gui.create_world.pages.game_rules.title=ゲームルール
+
+gui.dispenser.label.dispenser=ディスペンサー
+gui.dispenser.label.inventory=持ち物
+
+gui.activator.label.activator=Activator
+gui.activator.label.inventory=Inventory
+
+gui.downloading_terrain.label.title=地形情報をダウンロード中
+
+gui.edit_flag.label.inventory=持ち物
+
+gui.edit_label.label.title=付箋の編集:
+gui.edit_label.button.done=完了
+
+gui.edit_sign.label.title=看板の編集:
+gui.edit_sign.button.done=完了
+
+gui.exception.label.exception_occurred=例外が発生しました！
+gui.exception.label.fatal_error=致命的なエラーが発生しました！
+gui.exception.label.startup_error=Minecraftの起動に失敗しました！
+gui.exception.button.copy_error=エラー内容をコピーする
+gui.exception.button.copy_error_and_quit=エラー内容をコピーして終了する
+gui.exception.button.back=タイトル画面へ戻る
+
+gui.furnace.label.furnace=かまど
+gui.furnace.blast.label.blast_furnace=溶鉱炉
+gui.furnace.label.inventory=持ち物
+
+gui.game_over.label.title=ゲームオーバー！
+gui.game_over.label.score=スコア: %s
+gui.game_over.button.respawn=リスポーン
+gui.game_over.button.respawn.spectator=観覧
+gui.game_over.button.title_screen=タイトル画面へ戻る
+
+gui.guidebook.label.title=ガイドブック
+
+gui.ingame.label.now_playing=%sをプレイ中
+
+gui.ingame_menu.label.title=ゲームメニュー
+gui.ingame_menu.label.score=スコア: %s
+gui.ingame_menu.label.saving=セーブ中...
+gui.ingame_menu.button.save_and_quit=セーブしてタイトルへ戻る
+gui.ingame_menu.button.disconnect=切断する
+gui.ingame_menu.button.back_to_game=ゲームに戻る
+gui.ingame_menu.button.options=オプション...
+gui.ingame_menu.button.photo_mode=撮影モード...
+gui.ingame_menu.button.achievements=実績
+gui.ingame_menu.button.statistics=統計
+
+gui.inventory.label.crafting=クラフト
+gui.inventory.creative.label.search=検索...
+
+gui.loading.label.generating=ワールドを生成中...
+gui.loading.label.loading=ワールドを読み込み中...
+gui.loading.label.entering=%sへ転移中...
+gui.loading.label.leaving=%sから帰還中...
+
+gui.main_menu.label.splash.jonkadelic_birthday=ハッピーバースデー！Jonkadelic！
+gui.main_menu.label.splash.maggandgeez_birthday=ハッピーバースデー！MaggAndGeez！
+gui.main_menu.label.splash.minecraft_birthday=ハッピーバースデー！Minecraft！
+gui.main_menu.label.splash.bta_birthday=ハッピーバースデー！Better than Adventure！
+gui.main_menu.label.splash.xmas=メリークリスマス！
+gui.main_menu.label.splash.halloween=ハッピーハロウィーン！
+gui.main_menu.label.splash.new_year=あけましておめでとう！
+gui.main_menu.label.disclaimer.1=このゲームの著作権はMojang Studiosに帰属します。これはMinecraftの公式製品ではありません。
+gui.main_menu.label.disclaimer.2=これはMojang StudiosまたはMicrosoftによって承認されたものでも、それに関連するものでもありません。
+gui.main_menu.label.downloading_resources=リソースをダウンロード中: %s / %s
+gui.main_menu.label.downloading_resources.2=Sounds may not play during this process!
+gui.main_menu.button.singleplayer=シングルプレイ
+gui.main_menu.button.multiplayer=マルチプレイ
+gui.main_menu.button.multiplayer.disabled=マルチプレイ(未対応)
+gui.main_menu.button.texture_packs=テクスチャーパック
+gui.main_menu.button.options=オプション...
+gui.main_menu.button.quit_game=終了
+gui.main_menu.button.discord=Discord
+gui.main_menu.button.youtube=YouTube
+gui.main_menu.button.website=Website
+gui.main_menu.button.credits=Credits
+
+gui.out_of_memory.label.title=メモリが不足しています！
+gui.out_of_memory.label.body.1=Minecraftのメモリが不足しました
+gui.out_of_memory.label.body.2=これはゲームの不具合であるか、もしくはJava仮想マシンに
+gui.out_of_memory.label.body.3=十分なメモリが割り当てられていないことが原因であると
+gui.out_of_memory.label.body.4=考えられます
+gui.out_of_memory.label.body.5=セーブデータの破損を防ぐため、現在開いているゲームは終了しました
+gui.out_of_memory.label.body.6=ゲームを再起動してください
+
+gui.options.title=オプション
+gui.options.button.done=完了
+gui.options.label.select_page=項目選択
+gui.options.label.picking_keybinding=「%s」のキー割り当てを、使用したいキーまたはマウスボタンを押して変更する
+
+gui.options.page.general.title=一般
+gui.options.page.general.button.open_worlds_folder=ワールドフォルダを開く
+gui.options.page.general.button.open_screenshots_folder=スクリーンショットフォルダを開く
+gui.options.page.general.button.edit_hud=HUDの編集...
+gui.options.page.general.category.gameplay=ゲームプレイ
+gui.options.page.general.category.user_interface=ユーザインタフェース
+gui.options.page.general.category.miscellaneous=その他
+
+gui.options.page.player.title=Player
+gui.options.page.player.category.player=Player
+
+gui.options.page.audio.title=オーディオ設定
+gui.options.page.audio.category.audio=オーディオ
+gui.options.page.audio.category.debug=デバッグ
+
+gui.options.page.accessibility.title=Accessibility
+gui.options.page.accessibility.category.accessibility=Accessibility
+
+gui.options.page.video.title=ビデオ設定
+gui.options.page.video.category.graphics=グラフィックス
+gui.options.page.video.category.performance=パフォーマンス
+gui.options.page.video.category.post_processing=後処理
+gui.options.page.video.category.visuals=視覚
+
+gui.options.page.controls.title=操作設定
+gui.options.page.controls.button.controller_setup=コントローラーのセットアップ...
+gui.options.page.controls.button.key.unbound=未割り当て
+gui.options.page.controls.category.mouse=マウス
+gui.options.page.controls.category.keyboard=キーボード
+gui.options.page.controls.category.controller=コントローラー
+gui.options.page.controls.category.interactions=作用
+gui.options.page.controls.category.movement=移動
+gui.options.page.controls.category.user_interface=ユーザインタフェース
+gui.options.page.controls.category.hotbar=ホットバー
+gui.options.page.controls.category.view=視点
+gui.options.page.controls.category.miscellaneous=その他
+
+gui.options.page.texture_packs.title=テクスチャーパック
+gui.options.page.texture_packs.category.textures=テクスチャー
+gui.options.page.texture_packs.category.texture_packs.available=使用可能なテクスチャーパック
+gui.options.page.texture_packs.category.texture_packs.selected=適用中のテクスチャーパック
+gui.options.page.texture_packs.button.open_folder=フォルダを開く
+gui.options.page.texture_packs.button.apply=テクスチャーパックを適用する
+gui.options.page.texture_packs.label.no_packs=テクスチャーパックが見つかりません :(
+gui.options.page.texture_packs.label.outdated_pack.1=古いテクスチャーパックです！
+gui.options.page.texture_packs.label.outdated_pack.2=このテクスチャーパックはこのバージョンのBTA向けに作られたものではありません！
+
+gui.options.page.language_packs.title=ランゲージパック
+gui.options.page.language_packs.category.language_packs=ランゲージパック
+gui.options.page.language_packs.button.open_folder=フォルダを開く
+
+gui.options.page.debug.title=デバッグメニュー
+gui.options.page.debug.category.controls=デバッグ操作
+gui.options.page.debug.category.utility=ユーティリティー
+gui.options.page.debug.category.settings=設定
+gui.options.page.debug.category.test=テスト
+gui.options.page.debug.button.open.model_viewer=モデルビューアを開く
+gui.options.page.debug.button.open.biome_finder=バイオームファインダーを開く
+gui.options.page.debug.button.open.datadumper=データダンプの実行
+gui.options.page.debug.button.open.sound_test=Open Sound Test
+gui.options.page.debug.button.open.texture_viewer=Open Texture Viewer
+gui.options.page.debug.button.open.font_tester=Open Font Test
+gui.options.page.debug.button.open.achievements=Open Achievements
+gui.options.page.debug.button.wipestats=Delete Stats
+gui.options.page.debug.button.unlockedall=Unlock all stats
+gui.options.page.debug.button.cheat=Enable Cheats
+gui.options.page.debug.button.crash.soft=クラッシュを発生させる
+gui.options.page.debug.button.crash.hard=致命的なクラッシュを発生させる
+gui.options.page.debug.button.music.skip=Force Ambient Music
+gui.options.page.debug.button.garbage_collect=Run Garbage Collector
+
+gui.options.page.search.title=検索
+
+gui.sound_test.label.title=Sound Test
+gui.sound_test.label.repo=Sound Repository: %s
+gui.sound_test.label.id=ID: %s
+gui.sound_test.label.subtitle=Subtitle: %s | %s
+gui.sound_test.label.url=URL: %s
+gui.sound_test.label.select_repo=Select Repo:
+gui.sound_test.label.select_entry=Select Entry:
+gui.sound_test.button.done=Done
+gui.sound_test.button.play=Play
+gui.sound_test.button.play_stream=Play Stream
+gui.sound_test.button.reload=Reload
+gui.sound_test.button.stop=Stop
+
+gui.texture_viewer.label.title=Texture Viewer
+
+gui.photo_mode.label.mouse_hint=クリックしてドラッグで移動や回転が可能です
+gui.photo_mode.button.take_screenshot=スクリーンショットの撮影
+gui.photo_mode.button.center_camera=位置を戻す
+gui.photo_mode.button.show_player=プレイヤーを表示: %s
+gui.photo_mode.button.show_player.on=オン
+gui.photo_mode.button.show_player.off=オフ
+gui.photo_mode.button.time_of_day=時刻: %s
+gui.photo_mode.button.time_of_day.default=デフォルト
+gui.photo_mode.button.season=季節: %s
+gui.photo_mode.button.season.default=デフォルト
+gui.photo_mode.button.fog=霧: %s
+gui.photo_mode.button.tilt=角度: %s
+gui.photo_mode.button.tilt.default=デフォルト
+gui.photo_mode.button.shader=シェーダー: %s
+gui.photo_mode.button.shader.none=なし
+gui.photo_mode.button.intensity=シェーダーの適用度: %s
+
+gui.select_server.label.title=サーバー選択
+gui.select_server.label.delete_title=サーバーを削除
+gui.select_server.label.delete_confirm.1=このサーバーを削除してもよろしいですか？
+gui.select_server.label.delete_confirm.2=「%s」は完全に削除され、二度と元に戻せません！
+gui.select_server.label.edit.1=サーバーの編集
+gui.select_server.label.edit.2=サーバー名
+gui.select_server.label.edit.3=サーバーアドレス
+gui.select_server.label.down=停止中
+gui.select_server.label.outdated=バージョンが古いです
+gui.select_server.button.join_server=サーバーに接続
+gui.select_server.button.direct_connect=ダイレクト接続
+gui.select_server.button.add_server=サーバー追加
+gui.select_server.button.edit=編集
+gui.select_server.button.delete=削除
+gui.select_server.button.refresh=更新
+gui.select_server.button.cancel=キャンセル
+gui.select_server.button.done=完了
+gui.select_server.button.show_ip=IPを表示: %s
+gui.select_server.button.show_ip.on=オン
+gui.select_server.button.show_ip.off=オフ
+
+gui.select_world.label.title=ワールドを選択
+gui.select_world.label.world=ワールド %s
+gui.select_world.label.must_be_converted=ワールドデータを変換する必要があります
+gui.select_world.label.dimension_corrupted=ディメンションが壊れています！
+gui.select_world.label.outdated=古いワールド - 読み込めません(今はね！)
+gui.select_world.label.delete_title=ワールドを削除
+gui.select_world.label.delete_confirm.1=このワールドを削除してもよろしいですか？
+gui.select_world.label.delete_confirm.2=「%s」は完全に削除され、二度と元に戻せません！
+gui.select_world.label.rename_title=ワールド名を変更
+gui.select_world.label.world_name=ワールド名
+gui.select_world.label.cheats=チート
+gui.select_world.label.unknown=不明
+gui.select_world.button.play_selected_world=選択したワールドで遊ぶ
+gui.select_world.button.rename=名前を変更
+gui.select_world.button.create_new_world=ワールドを新規作成
+gui.select_world.button.delete=削除
+gui.select_world.button.cancel=キャンセル
+
+gui.sleeping.leave_bed=ベッドから出る
+gui.sleeping.multiplayer.leave_bed=ベッドから出る
+
+gui.statistics.label.title=統計
+gui.statistics.label.times_used=使った回数
+gui.statistics.label.times_mined=採取した回数
+gui.statistics.label.times_depleted=消耗した回数
+gui.statistics.label.times_crafted=作った回数
+gui.statistics.button.done=完了
+gui.statistics.button.general=一般
+gui.statistics.button.blocks=ブロック
+gui.statistics.button.items=アイテム
+
+gui.trommel.label.trommel=回転ふるい
+gui.trommel.label.inventory=持ち物
+
+gui.hud_designer.button.done=完了
+
+gui.pick_monster.label.title=スポーンさせるmobを選択
+
+gui.model_viewer.slider.variant=種類: %d
+gui.model_viewer.slider.meta=メタデータ: %d
+gui.model_viewer.button.tickprogress=時間経過: %s
+gui.model_viewer.button.bulk_render=Bulk Render
+gui.model_viewer.button.rotate=パーティクルの追従回転: %s
+gui.model_viewer.button.reload_textures=テクスチャーの再読み込み
+gui.model_viewer.button.category=カテゴリ
+
+model.category.entity.info=エンティティ: %s
+model.category.entity.name=エンティティ
+model.category.entity.tnt.slider.fuse=爆発までの進行度: %d
+model.category.entity.sheep.slider.color=色: %s
+model.category.entity.painting.slider.motif=絵: %s
+model.category.entity.fireflycluster.slider.size=大きさ: %d
+model.category.entity.fireflycluster.button.cycle=色: %s
+model.category.entity.item.button.cycle=アイテムの種類
+model.category.entity.item.slider.size=スタック量: %d
+model.category.entity.sand.button.cycle=ブロックの種類
+model.category.entity.creeper.button.charged=巨匠: %s
+model.category.entity.armored_zombie.button.sword=剣の所持: %s
+model.category.entity.wolf.button.tamed=飼いならし: %s
+model.category.entity.wolf.button.sitting=お座り: %s
+model.category.entity.wolf.button.angry=怒り: %s
+model.category.entity.wolf.button.armor=防具: %s
+model.category.entity.wolf.button.item=くわえたアイテム: %s
+model.category.entity.boat.button.flag=旗: %s
+model.category.entity.boat.button.wind=風向き: %s度
+model.category.entity.slime.slider.size=大きさ: %s
+model.category.entity.minecart.button.cycle=トロッコの種類
+model.category.entity.minecart.slider.color=Color: %s
+
+model.category.block.name=ブロック
+model.category.block.info=ブロック: %s
+model.category.block.basket.slider.fill=積載量: %s
+model.category.block.spawner.button.id=Mob: %s
+
+model.category.particle.name=パーティクル
+model.category.particle.info=パーティクル: %s
+model.category.particle.radius.slider=半径: %s
+model.category.particle.note.slider=音符の種類: %s
+model.category.particle.block.side=面: %s
+
+gui.credits.button.done=Done
+gui.credits.label.title=Credits
+
+gui.tooltip.prompt.description=%s: Show more...

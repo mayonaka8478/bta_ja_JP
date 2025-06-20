@@ -1,0 +1,28 @@
+Press %key.guidebook to open the Guidebook.
+Portals can be as large (or small) as you want.
+The Trommel lets you turn useless dirt into valuable resources.
+Cherry trees bloom in spring.
+Leather boots keep your crops safe from trampling.
+Seasons change every 14 days.
+Items fall through mesh blocks.
+Blast furnaces smelt faster than regular ones.
+Press %key.fly to fly in creative.
+Moss spreads to nearby blocks. See what it can spread to!
+Use %key.fly + scroll up/down to change flying speed in creative.
+Sick of watching grass grow? Use bonemeal on dirt.
+Beds need blankets! Use cloth to craft them.
+Quivers provide a convenient way to store a lot of arrows.
+Olivine is a decent substitute for Nether coal.
+Outback soil is rich with minerals.
+There are 4 main types of rock! See which one you like best.
+Fancy a splash of color? Try painting wooden planks!
+Press %key.hotbar.switch to change your active hotbar.
+Use a compass to see your coordinates.
+Use a clock to see the time of day.
+Use a rotary calendar to see the season.
+Labyrinths contain rare and exciting treasures.
+Right-clicking on one flag while holding another will copy its pattern.
+Signs can be dyed.
+Pebbles can be placed on the ground to make a nice path.
+Labels can be used to rename mobs and items.
+Press LCTRL while hovering over an item to see its description.

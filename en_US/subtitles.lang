@@ -1,0 +1,106 @@
+subtitles.mob.sheep=Sheep bleat
+subtitles.mob.chicken=Chicken clucking
+subtitles.mob.chicken.hurt=Chicken hurt
+subtitles.mob.chicken.plop=Chicken plop
+subtitles.mob.pig=Pig oinking
+subtitles.mob.pig.death=Pig death
+subtitles.mob.wolf.howl=Wolf howl
+subtitles.mob.wolf.panting=Wolf panting
+subtitles.mob.wolf.hurt=Wolf hurt
+subtitles.mob.wolf.bark=Wolf Bark
+subtitles.mob.wolf.growl=Wolf growl
+subtitles.mob.wolf.death=Wolf death
+subtitles.mob.wolf.whine=Wolf whine
+subtitles.mob.wolf.shake=Wolf shaking
+subtitles.mob.cow.hurt=Cow hurt
+subtitles.mob.cow=Cow mooing
+subtitles.mob.zombie=Zombie groans
+subtitles.mob.zombie.hurt=Zombie hurt
+subtitles.mob.zombie.death=Zombie death
+subtitles.mob.zombiepig.zpighurt=Zombie pigman hurt
+subtitles.mob.zombiepig.zpig=Zombie pigman groans
+subtitles.mob.zombiepig.zpigdeath=Zombie pigman death
+subtitles.mob.zombiepig.zpigangry=Zombie pigman angry
+subtitles.mob.skeleton=Skeleton rattles
+subtitles.mob.skeleton.death=Skeleton death
+subtitles.mob.skeleton.hurt=Skeleton hurt
+subtitles.mob.ghast.fireball=Ghast fireball
+subtitles.mob.ghast.moan=Ghast moan
+subtitles.mob.ghast.death=Ghast death
+subtitles.mob.ghast.scream=Ghast Scream
+subtitles.mob.ghast.affectionate_scream=Ghast affectionate scream
+subtitles.mob.creeper=Creeper hiss
+subtitles.mob.creeper.death=Creeper death
+subtitles.mob.creeper.fuse=Creeper fuse
+subtitles.mob.spider.death=Spider death
+subtitles.mob.spider=Spider hiss
+subtitles.mob.ghast.charge=Ghast charging
+subtitles.mob.slime.attack=Slime attack
+subtitles.mob.slime=Slime plop
+
+subtitles.fall.small=Small fall
+subtitles.damage.fall.big=Big fall
+
+subtitles.liquid.water=Water flowing
+subtitles.liquid.lava.pop=Lava pop
+subtitles.liquid.lava=Lava bubbling
+subtitles.liquid.splash=Water splash
+
+subtitles.portal.portal=Portal ambience
+subtitles.portal.trigger=Portal trigger
+subtitles.portal.travel=Portal travel
+
+subtitles.item.pickup=Item pickup
+
+subtitles.random.fizz=Fizzing
+subtitles.random.drr=Arrow drr
+subtitles.random.fuse=Fuse lit
+subtitles.random.skate=Skating
+subtitles.random.pop=Pop
+subtitles.random.glass=Glass
+subtitles.random.door_open=Door opened
+subtitles.random.door_close=Door closed
+subtitles.random.explode=Explosion
+subtitles.random.bow=Bow shot
+subtitles.random.hurt=Hurt
+subtitles.random.splash=Splash
+subtitles.random.breath=Breath
+subtitles.random.bite=Player Eating
+subtitles.random.equip=Armor Equipped
+subtitles.random.stone_scrape=Stone scrape
+
+subtitles.note.snare=Note snare
+subtitles.note.harp=Note harp
+subtitles.note.bass=Note bass
+subtitles.note.bd=Note bd
+subtitles.note.pling=Note pling
+subtitles.note.hat=Note hat
+subtitles.note.bassattack=Note bass attack
+subtitles.note.chant=Note chant
+subtitles.note.drum_steel=Note steel drum
+subtitles.note.chip_triangle=Note triangle wave
+subtitles.note.guitar_electric=Note electric guitar
+subtitles.note.celesta=Note celesta
+subtitles.note.wood_block=Note wood block
+
+subtitles.ambient.weather.thunder=Thunder
+subtitles.ambient.cave=Cave ambience
+subtitles.ambient.weather.rain=Rainfall
+
+subtitles.tile.piston.out=Piston extended
+subtitles.tile.piston.in=Piston retracted
+
+subtitles.tile.tnt.fuse=TNT lit
+subtitles.tile.sensor_block.sense=Mob sensed
+
+subtitles.tile.dispenser.click=Dispenser click
+subtitles.tile.dispenser.eject=Dispenser eject
+subtitles.tile.dispenser.fire=Dispenser fire
+
+subtitles.tile.activator.click=Activator click
+subtitles.tile.activator.use=Activator use
+
+subtitles.hurt.flesh=Hurt flesh
+
+subtitles.fire.ignite=Fire lit
+subtitles.fire.fire=Fire crackling
