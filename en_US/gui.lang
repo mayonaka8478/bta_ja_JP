@@ -16,7 +16,7 @@ gui.achievements.page.overworld.desc=Achievements of the starting dimension!
 gui.achievements.page.nether.name=Nether
 gui.achievements.page.nether.desc=Achievements from Hell!
 
-gui.add_server.label.title=Add server
+gui.add_server.label.title=Add Server
 gui.add_server.button.save=Save
 gui.add_server.button.cancel=Cancel
 gui.add_server.button.show_ip=Show IP: %s
@@ -33,10 +33,10 @@ gui.bad_java_arch.label.body.4=Please consider downloading a 64-bit JRE such as 
 gui.bad_java_arch.button.download=Download
 gui.bad_java_arch.button.continue=Continue
 
-gui.no_jce.label.title=Java Cryptography Extension (JCE) not present!
+gui.no_jce.label.title=§l§4Java Cryptography Extension (JCE) not present!§r
 gui.no_jce.label.body.1=It looks like you're running Better than Adventure! without JCE.
-gui.no_jce.label.body.2=This will break some network related features like downloading
-gui.no_jce.label.body.3=sounds and multiplayer chatting!
+gui.no_jce.label.body.2=§l§eThis will break some features like multiplayer!§r
+gui.no_jce.label.body.3=
 gui.no_jce.label.body.4=Please consider downloading a more up to date JRE
 gui.no_jce.label.body.5=with the extension included such as Eclipse Temurin.
 gui.no_jce.label.body.intel.disclaimer.1=Due to hardware compatibility issues on Intel Graphics hardware
@@ -46,7 +46,8 @@ gui.no_jce.button.download.recommended=Java Download (Recommended!)
 gui.no_jce.button.download=Java Download
 gui.no_jce.button.upgrade=JCE Patch
 gui.no_jce.button.upgrade.recommended=JCE Patch (Recommended!)
-gui.no_jce.button.continue=Continue
+gui.no_jce.button.back=Main Menu
+gui.no_jce.button.continue=Ignore Warning
 
 gui.no_minecraft.label.title=Minecraft Beta 1.7.3 is Missing!
 gui.no_minecraft.label.body.1=It looks like you're running Better than Adventure! without Minecraft Beta 1.7.3.
@@ -322,6 +323,7 @@ gui.select_server.button.done=Done
 gui.select_server.button.show_ip=Show IP: %s
 gui.select_server.button.show_ip.on=ON
 gui.select_server.button.show_ip.off=OFF
+gui.select_server.button.no_jce.warning=§l§eJCE Missing!
 
 gui.select_world.label.title=Select World
 gui.select_world.label.world=World %s

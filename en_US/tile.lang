@@ -668,7 +668,7 @@ tile.wire.redstone.name=Redstone Wire
 tile.wire.redstone.desc=A strand of redstone dust laid on the ground.
 
 tile.torch.redstone.idle.name=Redstone Torch
-tile.torch.redstone.idle.desc=Emits a constant redstone signal.
+tile.torch.redstone.idle.desc=Exudes negative energy.
 tile.torch.redstone.active.name=Redstone Torch
 tile.torch.redstone.active.desc=Emits a constant redstone signal.
 
@@ -678,7 +678,7 @@ tile.button.planks.name=Wooden Button
 tile.button.planks.desc=Emits a brief redstone signal when pressed.
 
 tile.button.planks.painted.name=Mystery Button
-tile.button.planks.painted.desc=Emits a brief redstone signal when pressed.
+tile.button.planks.painted.desc=How did you get this?!
 tile.button.planks.painted.black.name=Black Wooden Button
 tile.button.planks.painted.black.desc=Emits a brief redstone signal when pressed.
 tile.button.planks.painted.red.name=Red Wooden Button
@@ -1416,3 +1416,8 @@ tile.statue.pigman.lower.name=Pigman Statue (Lower)
 tile.statue.pigman.lower.desc=
 tile.statue.pigman.upper.name=Pigman Statue (Upper)
 tile.statue.pigman.upper.desc=
+
+tile.matcher.name=Matcher
+tile.matcher.desc=Matches the block in front to the block behind.
+tile.matcher.active.name=Matcher
+tile.matcher.desc=Matches the block in front to the block behind.
