@@ -1,49 +1,51 @@
 subtitles.mob.sheep=Sheep bleat
-subtitles.mob.chicken=Chicken clucking
+subtitles.mob.chicken=Chicken cluck
 subtitles.mob.chicken.hurt=Chicken hurt
 subtitles.mob.chicken.plop=Chicken plop
-subtitles.mob.pig=Pig oinking
+subtitles.mob.pig=Pig oink
 subtitles.mob.pig.death=Pig death
 subtitles.mob.wolf.howl=Wolf howl
-subtitles.mob.wolf.panting=Wolf panting
+subtitles.mob.wolf.panting=Wolf pant
 subtitles.mob.wolf.hurt=Wolf hurt
-subtitles.mob.wolf.bark=Wolf Bark
+subtitles.mob.wolf.bark=Wolf bark
 subtitles.mob.wolf.growl=Wolf growl
 subtitles.mob.wolf.death=Wolf death
 subtitles.mob.wolf.whine=Wolf whine
-subtitles.mob.wolf.shake=Wolf shaking
+subtitles.mob.wolf.shake=Wolf shake
 subtitles.mob.cow.hurt=Cow hurt
-subtitles.mob.cow=Cow mooing
-subtitles.mob.zombie=Zombie groans
+subtitles.mob.cow=Cow moo
+subtitles.mob.zombie=Zombie groan
 subtitles.mob.zombie.hurt=Zombie hurt
 subtitles.mob.zombie.death=Zombie death
 subtitles.mob.zombiepig.zpighurt=Zombie pigman hurt
-subtitles.mob.zombiepig.zpig=Zombie pigman groans
+subtitles.mob.zombiepig.zpig=Zombie pigman groan
 subtitles.mob.zombiepig.zpigdeath=Zombie pigman death
 subtitles.mob.zombiepig.zpigangry=Zombie pigman angry
-subtitles.mob.skeleton=Skeleton rattles
+subtitles.mob.skeleton=Skeleton rattle
 subtitles.mob.skeleton.death=Skeleton death
 subtitles.mob.skeleton.hurt=Skeleton hurt
 subtitles.mob.ghast.fireball=Ghast fireball
 subtitles.mob.ghast.moan=Ghast moan
 subtitles.mob.ghast.death=Ghast death
-subtitles.mob.ghast.scream=Ghast Scream
+subtitles.mob.ghast.scream=Ghast scream
 subtitles.mob.ghast.affectionate_scream=Ghast affectionate scream
 subtitles.mob.creeper=Creeper hiss
 subtitles.mob.creeper.death=Creeper death
 subtitles.mob.creeper.fuse=Creeper fuse
 subtitles.mob.spider.death=Spider death
 subtitles.mob.spider=Spider hiss
-subtitles.mob.ghast.charge=Ghast charging
+subtitles.mob.ghast.charge=Ghast charge
 subtitles.mob.slime.attack=Slime attack
 subtitles.mob.slime=Slime plop
+subtitles.mob.player.death=Player death
+subtitles.mob.player.hurt=Player hurt
 
 subtitles.fall.small=Small fall
 subtitles.damage.fall.big=Big fall
 
-subtitles.liquid.water=Water flowing
+subtitles.liquid.water=Water flow
 subtitles.liquid.lava.pop=Lava pop
-subtitles.liquid.lava=Lava bubbling
+subtitles.liquid.lava=Lava bubble
 subtitles.liquid.splash=Water splash
 
 subtitles.portal.portal=Portal ambience
@@ -52,7 +54,7 @@ subtitles.portal.travel=Portal travel
 
 subtitles.item.pickup=Item pickup
 
-subtitles.random.fizz=Fizzing
+subtitles.random.fizz=Fizz
 subtitles.random.drr=Arrow drr
 subtitles.random.fuse=Fuse lit
 subtitles.random.skate=Skating
@@ -65,8 +67,8 @@ subtitles.random.bow=Bow shot
 subtitles.random.hurt=Hurt
 subtitles.random.splash=Splash
 subtitles.random.breath=Breath
-subtitles.random.bite=Player Eating
-subtitles.random.equip=Armor Equipped
+subtitles.random.bite=Player eat
+subtitles.random.equip=Armor equipped
 subtitles.random.stone_scrape=Stone scrape
 
 subtitles.note.snare=Note snare
@@ -91,7 +93,8 @@ subtitles.tile.piston.out=Piston extended
 subtitles.tile.piston.in=Piston retracted
 
 subtitles.tile.tnt.fuse=TNT lit
-subtitles.tile.sensor_block.sense=Mob sensed
+subtitles.tile.sensor_block.sense=Mob sense
+subtitles.tile.mobspawner.spawn=Mob spawn
 
 subtitles.tile.dispenser.click=Dispenser click
 subtitles.tile.dispenser.eject=Dispenser eject
@@ -103,4 +106,4 @@ subtitles.tile.activator.use=Activator use
 subtitles.hurt.flesh=Hurt flesh
 
 subtitles.fire.ignite=Fire lit
-subtitles.fire.fire=Fire crackling
+subtitles.fire.fire=Fire crackle

@@ -161,7 +161,7 @@ item.food.porkchop.raw.desc=Uncooked meat from a pig.
 item.food.porkchop.cooked.name=Cooked Porkchop
 item.food.porkchop.cooked.desc=Braised meat from a pig. Smoking!
 item.food.venison.raw.name=Raw Venison
-item.food.venison.raw.desc=Uncooked meat from a pig.
+item.food.venison.raw.desc=Uncooked meat from a deer.
 item.food.venison.cooked.name=Cooked Venison
 item.food.venison.cooked.desc=Seared steak from a deer. Delicious!
 item.painting.name=Painting
@@ -460,6 +460,8 @@ item.rope.desc=Strong enough to climb.
 
 item.wand.monster.name=Summoning Wand
 item.wand.monster.desc=A magical tool allowing the wielder to manifest living entities.
+item.wand.nbt.name=NBT Wand
+item.wand.nbt.desc=A magical tool allowing the wielder to modify an object's data.
 
 item.paintbrush.name=Paintbrush
 item.paintbrush.desc=Can be loaded with dye and used to paint blocks.

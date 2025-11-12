@@ -67,7 +67,7 @@ gui.conflict_warning.label.body.4=To prevent level corruption, the current game 
 gui.conflict_warning.button.back=Back to title screen
 
 gui.connect_failed.label.title=Failed to connect to the server
-gui.connect_failed.button.back=Back to title screen
+gui.connect_failed.button.back=Back to server browser
 
 gui.connect_to_ip.button.connect=Connect
 gui.connect_to_ip.button.cancel=Cancel
@@ -93,19 +93,32 @@ gui.create_world.button.gamemode=Mode: %s
 gui.create_world.button.cheats=Cheats: %s
 gui.create_world.button.cheats.on=ON
 gui.create_world.button.cheats.off=OFF
-gui.create_world.button.world_type=World Type: %s
+gui.create_world.button.world_settings=World Settings
 gui.create_world.label.new_world=New World
-gui.create_world.label.select_world_type=Select World Type
 
-gui.create_world.label.title=Create New World
-gui.create_world.button.cancel=Cancel
-gui.create_world.button.create_world=Create World
+gui.world_settings.label.title=World Settings
+gui.world_settings.button.done=Done
+gui.world_settings.page.game_rules.title=Game Rules
+gui.world_settings.page.world_settings.title=World Settings
+gui.world_settings.page.world_settings.category.overworld=Overworld
+gui.world_settings.page.world_settings.category.nether=Nether
+gui.world_settings.page.game_rules.button.on=ON
+gui.world_settings.page.game_rules.button.off=OFF
+gui.world_settings.page.mob_spawning.title=Mob Spawning
+gui.world_settings.page.mob_spawning.button.on=ON
+gui.world_settings.page.mob_spawning.button.off=OFF
+gui.world_settings.page.mob_spawning.hostile=Hostile Spawns
+gui.world_settings.page.mob_spawning.passive=Passive Spawns
+gui.world_settings.label.starting_biome=Starting Biome
+gui.world_settings.page.starting_biome.biome.none=Any
+gui.world_settings.label.select_world_type=Select World Type
+gui.world_settings.label.world_type=World Type
 
-gui.create_world.pages.general.title=General
-gui.create_world.pages.general.label.world_name=World Name
-gui.create_world.pages.general.label.world_seed=World Seed
-gui.create_world.pages.world_settings.title=World Settings
-gui.create_world.pages.game_rules.title=Game Rules
+gui.select_server.page.internet.title=Internet
+gui.select_server.page.favorites.title=Favorites
+gui.select_server.page.history.title=History
+gui.select_server.page.lan.title=Local Network
+gui.select_server.page.direct_connect.title=Direct Connect
 
 gui.dispenser.label.dispenser=Dispenser
 gui.dispenser.label.inventory=Inventory
@@ -172,8 +185,9 @@ gui.main_menu.label.splash.halloween=Happy Halloween!
 gui.main_menu.label.splash.new_year=Happy New Year!
 gui.main_menu.label.disclaimer.1=Copyright Mojang Studios. Not an official Minecraft product.
 gui.main_menu.label.disclaimer.2=Not approved by or associated with Mojang Studios or Microsoft.
-gui.main_menu.label.downloading_resources.1=Downloading resources: %s / %s
+gui.main_menu.label.downloading_resources.1=Downloading resources
 gui.main_menu.label.downloading_resources.2=Sounds may not play during this process!
+gui.main_menu.label.downloading_resources.connection.error=Could not download sounds!
 gui.main_menu.button.singleplayer=Singleplayer
 gui.main_menu.button.multiplayer=Multiplayer
 gui.main_menu.button.multiplayer.disabled=Multiplayer (not ready yet!)
@@ -217,10 +231,10 @@ gui.options.page.accessibility.title=Accessibility
 gui.options.page.accessibility.category.accessibility=Accessibility
 
 gui.options.page.video.title=Video
-gui.options.page.video.category.graphics=Graphics
-gui.options.page.video.category.performance=Performance
-gui.options.page.video.category.post_processing=Post-Processing
+gui.options.page.video.category.display=Display
 gui.options.page.video.category.visuals=Visuals
+gui.options.page.video.category.post_processing=Post-Processing
+gui.options.page.video.category.performance=Performance
 
 gui.options.page.controls.title=Controls
 gui.options.page.controls.button.controller_setup=Controller Setup...
@@ -260,6 +274,7 @@ gui.options.page.debug.button.open.datadumper=Run Data Dumper
 gui.options.page.debug.button.open.sound_test=Open Sound Test
 gui.options.page.debug.button.open.texture_viewer=Open Texture Viewer
 gui.options.page.debug.button.open.font_tester=Open Font Test
+gui.options.page.debug.button.open.nbt_tester=NBT Editor Test
 gui.options.page.debug.button.open.achievements=Open Achievements
 gui.options.page.debug.button.wipestats=Delete Stats
 gui.options.page.debug.button.unlockedall=Unlock all stats
@@ -268,8 +283,15 @@ gui.options.page.debug.button.crash.soft=Crash Soft
 gui.options.page.debug.button.crash.hard=Crash Hard
 gui.options.page.debug.button.music.skip=Force Ambient Music
 gui.options.page.debug.button.garbage_collect=Run Garbage Collector
+gui.options.page.debug.button.reload_commands=Reload Commands
 
 gui.options.page.search.title=Search
+
+gui.options.difficultylock.button.no=No
+gui.options.difficultylock.button.yes=Yes
+gui.options.difficultylock.warning.1=Are you sure you wish
+gui.options.difficultylock.warning.2=to lock this world's difficulty?
+gui.options.difficultylock.warning.3=(This cannot be undone)
 
 gui.sound_test.label.title=Sound Test
 gui.sound_test.label.repo=Sound Repository: %s
@@ -324,6 +346,24 @@ gui.select_server.button.show_ip=Show IP: %s
 gui.select_server.button.show_ip.on=ON
 gui.select_server.button.show_ip.off=OFF
 gui.select_server.button.no_jce.warning=§l§eJCE Missing!
+
+gui.select_server.popup.add.prompt.name=Server Name:
+gui.select_server.popup.add.prompt.ip=IP Address:
+gui.select_server.popup.add.button.save=Save
+gui.select_server.popup.add.button.cancel=Cancel
+gui.select_server.popup.add.showip.on=Show IP: ON
+gui.select_server.popup.add.showip.off=Show IP: OFF
+
+gui.select_server.popup.edit.prompt.name=Server Name:
+gui.select_server.popup.edit.prompt.ip=IP Address:
+gui.select_server.popup.edit.button.save=Save
+gui.select_server.popup.edit.button.cancel=Cancel
+gui.select_server.popup.edit.showip.on=Show IP: ON
+gui.select_server.popup.edit.showip.off=Show IP: OFF
+
+gui.select_server.popup.direct.prompt.ip=IP Address:
+gui.select_server.popup.direct.button.connect=Connect
+gui.select_server.popup.direct.button.cancel=Cancel
 
 gui.select_world.label.title=Select World
 gui.select_world.label.world=World %s

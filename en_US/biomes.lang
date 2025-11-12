@@ -28,3 +28,13 @@ biome.nether.crystal_forest=Crystal Forest
 biome.nether.ash_plains=Ash Plains
 biome.nether.boneyard=Boneyard
 biome.drift.drift=Drift
+
+biome.overworld.legacy.tundra=Beta Tundra
+biome.overworld.legacy.savanna=Beta Savanna
+biome.overworld.legacy.desert=Beta Desert
+biome.overworld.legacy.swampland=Beta Swampland
+biome.overworld.legacy.taiga=Beta Taiga
+biome.overworld.legacy.shrubland=Beta Shrubland
+biome.overworld.legacy.forest=Beta Forest
+biome.overworld.legacy.seasonal_forest=Beta Seasonal Forest
+biome.overworld.legacy.rainforest=Beta Rainforest

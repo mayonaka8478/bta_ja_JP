@@ -25,6 +25,12 @@ tile.cobble.granite.name=Cobbled Granite
 tile.cobble.granite.desc=Granite, smashed apart and reconstituted.
 tile.cobble.permafrost.name=Cobbled Permafrost
 tile.cobble.permafrost.desc=Permafrost, smashed apart and reconstituted.
+tile.cobble.basalt.mossy.name=Mossy Cobbled Basalt
+tile.cobble.basalt.mossy.desc=Cobbled basalt with added greenery.
+tile.cobble.limestone.mossy.name=Mossy Cobbled Limestone
+tile.cobble.limestone.mossy.desc=Cobbled limestone with added greenery.
+tile.cobble.granite.mossy.name=Mossy Cobbled Granite
+tile.cobble.granite.mossy.desc=Cobbled granite with added greenery.
 
 tile.pillar.marble.name=Marble Pillar
 tile.pillar.marble.desc=A block of marble engraved into a pillar.
@@ -945,7 +951,7 @@ tile.sign.wall.planks.oak.painted.orange.desc=An wooden sign placed on a wall.
 tile.sign.wall.planks.oak.painted.white.name=White Wooden Wall Sign
 tile.sign.wall.planks.oak.painted.white.desc=An wooden sign placed on a wall.
 
-tile.sign.post.planks.oak.painted.name=Mystery Wooden Chest
+tile.sign.post.planks.oak.painted.name=Mystery Wooden Signpost
 tile.sign.post.planks.oak.painted.desc=How did you get this?!
 tile.sign.post.planks.oak.painted.black.name=Black Wooden Signpost
 tile.sign.post.planks.oak.painted.black.desc=A free-standing wooden sign.
