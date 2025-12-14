@@ -24,3 +24,7 @@ gamerule.instant_healing.name=Instant Healing from Food
 gamerule.instant_healing.desc=If enabled, food will heal the player instantly as it did in older versions of BTA!.
 gamerule.random_tick_speed.name=Random Tick Rate
 gamerule.random_tick_speed.desc=Determines how many blocks are randomly ticked per game tick.
+gamerule.dropped_item_despawn_delay.name=Dropped Item Despawn Delay
+gamerule.dropped_item_despawn_delay.desc=The number of ticks until an item dropped by a player despawns.
+gamerule.item_despawn_delay.name=Item Despawn Delay
+gamerule.item_despawn_delay.desc=The number of ticks until an item that was not dropped by a player despawns.
