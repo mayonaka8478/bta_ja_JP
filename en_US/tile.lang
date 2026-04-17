@@ -52,6 +52,8 @@ tile.permafrost.carved.name=Carved Permafrost
 tile.permafrost.carved.desc=Polished Permafrost with lines hewn through the middle.
 tile.netherrack.carved.name=Carved Netherrack
 tile.netherrack.carved.desc=Polished Netherrack with lines hewn through the middle.
+tile.gloomstone.carved.name=Carved Gloomstone
+tile.gloomstone.carved.desc=Polished Gloomstone with lines hewn through the middle.
 
 tile.planks.oak.name=Wooden Planks
 tile.planks.oak.desc=Processed tree insides.
@@ -218,10 +220,6 @@ tile.brick.stone.polished.mossy.name=Mossy Polished Stone Bricks
 tile.brick.stone.polished.mossy.desc=Stacked bricks of polished stone with added greenery.
 tile.brick.sandstone.name=Sandstone Bricks
 tile.brick.sandstone.desc=Stacked bricks of sandstone.
-tile.brick.gold.name=Gold Bricks
-tile.brick.gold.desc=Stacked bricks of gold.
-tile.brick.lapis.name=Lapis Lazuli Bricks
-tile.brick.lapis.desc=Stacked bricks of lapis lazuli.
 tile.brick.basalt.name=Basalt Bricks
 tile.brick.basalt.desc=Stacked bricks of basalt.
 tile.brick.limestone.name=Limestone Bricks
@@ -236,10 +234,21 @@ tile.brick.stone.name=Stone Bricks
 tile.brick.stone.desc=Stacked bricks of stone.
 tile.brick.permafrost.name=Permafrost Bricks
 tile.brick.permafrost.desc=Stacked bricks of permafrost.
+
+tile.brick.diamond.name=Diamond Bricks
+tile.brick.diamond.desc=Stacked bricks of diamond.
 tile.brick.iron.name=Iron Bricks
 tile.brick.iron.desc=Stacked bricks of iron.
+tile.brick.gold.name=Gold Bricks
+tile.brick.gold.desc=Stacked bricks of gold.
+tile.brick.lapis.name=Lapis Lazuli Bricks
+tile.brick.lapis.desc=Stacked bricks of lapis lazuli.
 tile.brick.steel.name=Steel Bricks
 tile.brick.steel.desc=Stacked bricks of steel.
+tile.brick.olivine.name=Olivine Bricks
+tile.brick.olivine.desc=Stacked bricks of olivine.
+tile.brick.quartz.name=Quartz Bricks
+tile.brick.quartz.desc=Stacked bricks of quartz.
 
 tile.slab.planks.oak.name=Wooden Slab
 tile.slab.planks.oak.desc=A slab of wooden planks.
@@ -322,14 +331,21 @@ tile.slab.brick.sandstone.name=Sandstone Brick Slab
 tile.slab.brick.sandstone.desc=A slab of sandstone bricks.
 tile.slab.brick.permafrost.name=Permafrost Brick Slab
 tile.slab.brick.permafrost.desc=A slab of permafrost bricks.
+
+tile.slab.brick.diamond.name=Diamond Brick Slab
+tile.slab.brick.diamond.desc=A slab of diamond bricks.
 tile.slab.brick.iron.name=Iron Brick Slab
 tile.slab.brick.iron.desc=A slab of iron bricks.
 tile.slab.brick.gold.name=Gold Brick Slab
 tile.slab.brick.gold.desc=A slab of gold bricks.
-tile.slab.brick.steel.name=Steel Brick Slab
-tile.slab.brick.steel.desc=A slab of steel bricks.
 tile.slab.brick.lapis.name=Lapis Brick Slab
 tile.slab.brick.lapis.desc=A slab of lapis bricks.
+tile.slab.brick.steel.name=Steel Brick Slab
+tile.slab.brick.steel.desc=A slab of steel bricks.
+tile.slab.brick.olivine.name=Olivine Brick Slab
+tile.slab.brick.olivine.desc=A slab of olivine bricks.
+tile.slab.brick.quartz.name=Quartz Brick Slab
+tile.slab.brick.quartz.desc=A slab of quartz bricks.
 
 tile.stairs.planks.oak.name=Wooden Stairs
 tile.stairs.planks.oak.desc=Wooden block used for rapid vertical movement.
@@ -365,14 +381,21 @@ tile.stairs.brick.sandstone.name=Sandstone Brick Stairs
 tile.stairs.brick.sandstone.desc=Sandstone brick block used for rapid vertical movement.
 tile.stairs.brick.permafrost.name=Permafrost Brick Stairs
 tile.stairs.brick.permafrost.desc=Permafrost brick block used for rapid vertical movement.
+
+tile.stairs.brick.diamond.name=Diamond Brick Stairs
+tile.stairs.brick.diamond.desc=Diamond brick block used for rapid vertical movement.
 tile.stairs.brick.iron.name=Iron Brick Stairs
 tile.stairs.brick.iron.desc=Iron brick block used for rapid vertical movement.
 tile.stairs.brick.gold.name=Gold Brick Stairs
 tile.stairs.brick.gold.desc=Gold brick block used for rapid vertical movement.
-tile.stairs.brick.steel.name=Steel Brick Stairs
-tile.stairs.brick.steel.desc=Steel brick block used for rapid vertical movement.
 tile.stairs.brick.lapis.name=Lapis Brick Stairs
 tile.stairs.brick.lapis.desc=Lapis brick block used for rapid vertical movement.
+tile.stairs.brick.steel.name=Steel Brick Stairs
+tile.stairs.brick.steel.desc=Steel brick block used for rapid vertical movement.
+tile.stairs.brick.olivine.name=Olivine Brick Stairs
+tile.stairs.brick.olivine.desc=Olivine brick block used for rapid vertical movement.
+tile.stairs.brick.quartz.name=Quartz Brick Stairs
+tile.stairs.brick.quartz.desc=Quartz brick block used for rapid vertical movement.
 
 tile.stairs.planks.oak.painted.name=Mystery Wooden Stairs
 tile.stairs.planks.oak.painted.desc=How did you get this?!
@@ -461,13 +484,15 @@ tile.sand.name=Sand
 tile.sand.desc=Gets everywhere.
 tile.gravel.name=Gravel
 tile.gravel.desc=A loose collection of pebbles.
-tile.sulfur.name=Sulfur
-tile.sulfur.desc=Yellow.
+tile.brimsand.name=Brimsand
+tile.brimsand.desc=Scorched sulfuric sand rich in gunpowder.
 
 tile.bedrock.name=Bedrock
 tile.bedrock.desc=The toughest substance known to man.
-tile.boneshale.name=Bone Shale
+tile.boneshale.name=Boneshale
 tile.boneshale.desc=An incredibly tough white rock torn from the deepest depths.
+tile.boneshale.cobbled.name=Fractured Boneshale
+tile.boneshale.cobbled.desc=Cobbles of boneshale brought to the surface by intense tectonic activity.
 
 tile.fluid.water.flowing.name=Flowing Water
 tile.fluid.water.flowing.desc=Water that flows when placed.
@@ -494,6 +519,8 @@ tile.log.thorn.name=Thorn Log
 tile.log.thorn.desc=A log from a thorn tree.
 tile.log.palm.name=Palm Log
 tile.log.palm.desc=A log from a palm tree.
+tile.log.petrified.name=Petrified Pillar
+tile.log.petrified.desc=A pillar of carbon, encased in hardened ash.
 
 tile.leaves.oak.name=Oak Leaves
 tile.leaves.oak.desc=Leaves from an oak tree.
@@ -644,8 +671,12 @@ tile.ore.diamond.granite.desc=A chunk of diamond embedded in granite.
 tile.ore.diamond.permafrost.name=Permafrost Diamond Ore
 tile.ore.diamond.permafrost.desc=A chunk of diamond embedded in permafrost.
 
-tile.ore.nethercoal.netherrack.name=Nether Coal Ore
-tile.ore.nethercoal.netherrack.desc=A lump of Nether Coal embedded in netherrack.
+tile.ore.nethercoal.netherrack.name=Netherrack Nether Coal Ore
+tile.ore.nethercoal.netherrack.desc=A lump of Nether coal embedded in Netherrack.
+tile.ore.nethercoal.basalt.name=Basalt Nether Coal Ore
+tile.ore.nethercoal.basalt.desc=A lump of Nether coal embedded in basalt.
+tile.ore.nethercoal.gloomstone.name=Gloomstone Nether Coal Ore
+tile.ore.nethercoal.gloomstone.desc=A lump of Nether coal embedded in gloomstone.
 
 tile.block.coal.name=Block of Coal
 tile.block.coal.desc=A solid block of coal.
@@ -660,7 +691,7 @@ tile.block.redstone.desc=A solid block of redstone.
 tile.block.diamond.name=Block of Diamond
 tile.block.diamond.desc=A solid block of diamond. Well done you.
 tile.block.nethercoal.name=Block of Nether Coal
-tile.block.nethercoal.desc=A solid block of Nether Coal.
+tile.block.nethercoal.desc=A solid block of Nether coal.
 tile.block.steel.name=Block of Steel
 tile.block.steel.desc=A solid block of steel.
 tile.block.quartz.name=Block of Quartz
@@ -1033,27 +1064,44 @@ tile.pumpkin.redstone.desc=An orange squash with a spooky face, lit by a redston
 
 tile.cobble.netherrack.name=Cobbled Netherrack
 tile.cobble.netherrack.desc=Dark red rock that burns forever.
-tile.cobble.netherrack.igneous.name=Igneous Cobbled Netherrack
-tile.cobble.netherrack.igneous.desc=Extreme heat has made this rock glow from inside.
-tile.cobble.netherrack.mossy.name=Mossy Cobbled Netherrack
-tile.cobble.netherrack.mossy.desc=Cobbled netherrack, covered in something like moss.
+tile.magma.name=Magma
+tile.magma.desc=Lava that's been partially cooled. Melts in extreme heat.
+tile.cobble.netherrack.crystalline.name=Crystalline Netherrack
+tile.cobble.netherrack.crystalline.desc=Netherrack, covered in a web of Rubyglass.
 tile.netherrack.name=Netherrack
 tile.netherrack.desc=Dark red rock, smoothed by heat and time.
 tile.brick.netherrack.name=Netherrack Bricks
-tile.brick.netherrack.desc=Stacked bricks of netherrack.
+tile.brick.netherrack.desc=Stacked bricks of Netherrack.
 tile.slab.netherrack.carved.name=Polished Netherrack Slab
-tile.slab.netherrack.carved.desc=A slab of polished netherrack.
+tile.slab.netherrack.carved.desc=A slab of polished Netherrack.
 tile.slab.cobble.netherrack.name=Cobbled Netherrack Slab
-tile.slab.cobble.netherrack.desc=A slab of cobbled netherrack.
+tile.slab.cobble.netherrack.desc=A slab of cobbled Netherrack.
 tile.slab.brick.netherrack.name=Netherrack Brick Slab
-tile.slab.brick.netherrack.desc=A slab of netherrack bricks.
+tile.slab.brick.netherrack.desc=A slab of Netherrack bricks.
 tile.stairs.cobble.netherrack.name=Cobbled Netherrack Stairs
-tile.stairs.cobble.netherrack.desc=Cobbled netherrack block used for rapid vertical movement.
+tile.stairs.cobble.netherrack.desc=Cobbled Netherrack block used for rapid vertical movement.
 tile.stairs.brick.netherrack.name=Netherrack Brick Stairs
 tile.stairs.brick.netherrack.desc=Netherrack brick block used for rapid vertical movement.
 
+tile.gloomstone.name=Gloomstone
+tile.gloomstone.desc=A purplish rock plucked from the depths of Hell.
+tile.cobble.gloomstone.name=Cobbled Gloomstone
+tile.cobble.gloomstone.desc=Gloomstone, smashed apart and reconstituted.
+tile.brick.gloomstone.name=Gloomstone Bricks
+tile.brick.gloomstone.desc=Stacked bricks of gloomstone.
+tile.slab.gloomstone.carved.name=Polished Gloomstone Slab
+tile.slab.gloomstone.carved.desc=A slab of polished gloomstone.
+tile.slab.cobble.gloomstone.name=Cobbled Gloomstone Slab
+tile.slab.cobble.gloomstone.desc=A slab of cobbled gloomstone.
+tile.slab.brick.gloomstone.name=Gloomstone Brick Slab
+tile.slab.brick.gloomstone.desc=A slab of gloomstone bricks.
+tile.stairs.cobble.gloomstone.name=Cobbled Gloomstone Stairs
+tile.stairs.cobble.gloomstone.desc=Cobbled gloomstone block used for rapid vertical movement.
+tile.stairs.brick.gloomstone.name=Gloomstone Brick Stairs
+tile.stairs.brick.gloomstone.desc=gloomstone brick block used for rapid vertical movement.
+
 tile.soulsand.name=Soul Sand
-tile.soulsand.desc=Squishy brown sand that's tough to walk through.
+tile.soulsand.desc=Finely grained ancient bones. The weight of their sins slows you down.
 tile.soulschist.name=Soul Schist
 tile.soulschist.desc=A hideous medley of ancient bones, fused through heat, pressure, and time.
 
@@ -1223,7 +1271,9 @@ tile.slate.polished.desc=A polished block of slate.
 tile.permafrost.polished.name=Polished Permafrost
 tile.permafrost.polished.desc=A polished block of permafrost.
 tile.netherrack.polished.name=Polished Netherrack
-tile.netherrack.polished.desc=A polished block of netherrack.
+tile.netherrack.polished.desc=A polished block of Netherrack.
+tile.gloomstone.polished.name=Polished Gloomstone
+tile.gloomstone.polished.desc=A polished block of gloomstone.
 
 tile.candle.wax.soul.name=Soul Wax Candle
 tile.candle.wax.soul.desc=A waxy brown candle that glows with an unnatural light.
@@ -1380,14 +1430,28 @@ tile.glass.steel.desc=Like glass, but without the fragility.
 tile.rope.name=Rope
 tile.rope.desc=Rope, rope, rope your boat.
 
-tile.crystal.name=Nether Crystal
-tile.crystal.desc=A bright, iridescent stone that grows under intense heat.
+tile.rubyglass.column.name=Rubyglass Column
+tile.rubyglass.column.desc=A column of tightly packed Rubyglass. Breaks into dust when broken, but can be reassembled.
 
-tile.crystal.stalk.name=Nether Crystal Stalk
-tile.crystal.stalk.desc=A stalk of crystal, branching out in many directions.
+tile.rubyglass.node.name=Rubyglass Node
+tile.rubyglass.node.desc=A dense outcrop of Rubyglass. Crystals harvested from this node are purer and more durable than usual.
 
-tile.netherrack.crystalline.name=Crystalline Netherrack
-tile.netherrack.crystalline.desc=Cobbled Netherrack, embedded with crystals.
+tile.block.rubyglass.name=Block of Rubyglass
+tile.block.rubyglass.desc=A translucent glass-like crystal brimming with energy.
+
+tile.rubyglass.sprout.name=Rubyglass Bud
+tile.rubyglass.sprout.desc=A small bud of rubyglass, branching out in many directions. Can sprout from Crystalline Netherrack in the right conditions.
+
+tile.rubyglass.circuit.name=Rubyglass Circuit
+tile.rubyglass.circuit.desc=Netherrack etched with lines of rubyglass. It resonates with latent power.
+
+tile.vent.name=Chimney
+tile.vent.desc=A rocky column that emits a stream of smoke.
+
+tile.bone_pile.name=Bone Pile
+tile.bone_pile.desc=A pile of solid calcium.
+tile.soul_catcher.name=Soul Catcher
+tile.soul_catcher.desc=Tendrils of soul sand that seemingly move on their own. Hard to walk through.
 
 tile.jar.butterfly.blue.name=Blue Butterfly Jar
 tile.jar.butterfly.blue.desc=A glass jar containing a blue butterfly.
@@ -1427,3 +1491,6 @@ tile.matcher.name=Matcher
 tile.matcher.desc=Matches the block in front to the block behind.
 tile.matcher.active.name=Matcher
 tile.matcher.desc=Matches the block in front to the block behind.
+
+tile.flowstone.name=Flowstone
+tile.flowstone.desc=A rocky growth formed over millennia.

@@ -490,3 +490,24 @@ item.statue.pigman.desc=An ancient marble statue found in a long-forgotten place
 
 item.dough.name=Dough
 item.dough.desc=Uncooked dough. Can be baked into bread.
+
+item.rubyglass.crystal.cracked.name=Rubyglass Shards
+item.rubyglass.crystal.cracked.desc=Cracked and full of impurities. But still aesthetically pleasing.
+item.rubyglass.crystal.pure.name=Rubyglass
+item.rubyglass.crystal.pure.desc=A shard of charged Rubyglass crystal, brimming with energy. Perfectly intact and slightly translucent.
+
+item.sulfur.name=Sulfur
+item.sulfur.desc=Highly flammable and yellow. Packs a punch.
+
+item.armor.wolf.leather.name=Leather Wolf Armor
+item.armor.wolf.leather.desc=Keep your best friend safe with this soft leather shell.
+item.armor.wolf.chainmail.name=Chainmail Wolf Armor
+item.armor.wolf.chainmail.desc=Keep your best friend safe with this tough chainmail shell. Can be repaired.
+item.armor.wolf.iron.name=Iron Wolf Armor
+item.armor.wolf.iron.desc=Keep your best friend safe with this strong iron shell.
+item.armor.wolf.diamond.name=Diamond Wolf Armor
+item.armor.wolf.diamond.desc=Keep your best friend safe with this fancy diamond shell.
+item.armor.wolf.gold.name=Gold Wolf Armor
+item.armor.wolf.gold.desc=Keep your best friend fabulous with this shiny gold shell.
+item.armor.wolf.steel.name=Steel Wolf Armor
+item.armor.wolf.steel.desc=Keep your best friend safe with this sturdy steel shell.

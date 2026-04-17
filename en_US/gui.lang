@@ -285,6 +285,10 @@ gui.options.page.debug.button.music.skip=Force Ambient Music
 gui.options.page.debug.button.garbage_collect=Run Garbage Collector
 gui.options.page.debug.button.reload_commands=Reload Commands
 
+gui.options.page.hidden.title=Hidden Options
+gui.options.page.hidden.category.general=General
+gui.options.page.hidden.category.general.userinterface=User Interface
+
 gui.options.page.search.title=Search
 
 gui.options.difficultylock.button.no=No

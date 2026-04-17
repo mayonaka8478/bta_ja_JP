@@ -16,6 +16,7 @@ weather.overworld.clear.name=Clear
 weather.overworld.hell.clear.name=Clear
 weather.overworld.woods.clear.name=Clear
 weather.overworld.rain.name=Raining
+weather.overworld.rain.blood.name=Raining?
 weather.overworld.snow.name=Snowing
 weather.overworld.winter.snow.name=Snowing
 weather.overworld.storm.name=Thundering
