@@ -91,6 +91,10 @@ subtitles.ambient.weather.rain=Rainfall
 
 subtitles.tile.piston.out=Piston extended
 subtitles.tile.piston.in=Piston retracted
+subtitles.tile.piston.detached=Piston detached
+subtitles.tile.piston.attached=Piston attached
+subtitles.tile.piston.detached.out=Piston failed to extend
+subtitles.tile.piston.detached.in=Piston failed to retract
 
 subtitles.tile.tnt.fuse=TNT lit
 subtitles.tile.sensor_block.sense=Mob sense
@@ -102,6 +106,16 @@ subtitles.tile.dispenser.fire=Dispenser fire
 
 subtitles.tile.activator.click=Activator click
 subtitles.tile.activator.use=Activator use
+
+subtitles.tile.crystal=Crystal tinkle
+
+subtitles.tile.scrape=Statue scraping
+
+subtitles.tile.deepcrumble=Deep crumble
+subtitles.tile.deepboom=Deep boom
+subtitles.tile.crumble=Crumble
+subtitles.tile.acidbubble=Acid bubble
+subtitles.tile.deepquietboom=Deep quiet boom
 
 subtitles.hurt.flesh=Hurt flesh
 

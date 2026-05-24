@@ -121,3 +121,7 @@ achievement.mostWanted=Most Wanted
 achievement.mostWanted.desc=Have more than 10 Zombie Pigmen attack you.
 achievement.fastTravel=Dimensional Slingshot
 achievement.fastTravel.desc=Use the Nether to travel more than 8000 blocks in the Overworld.
+achievement.blastFurnace=Blast Processing
+achievement.blastFurnace.desc=Construct a blast furnace out of eight iron bars and nether coal.
+achievement.obtainSteel=What a Steel!
+achievement.obtainSteel.desc=Combine coal and iron to acquire steel, a strong alloy.

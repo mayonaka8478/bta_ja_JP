@@ -42,11 +42,14 @@ options.fancyGraphics=Graphics
 options.connectedGlass=Connected Glass
 options.graphics.fancy=Fancy
 options.graphics.fast=Fast
-options.guiScale=GUI Scale
+options.guiScale=Global GUI Scale
 options.guiScale.auto=Auto
+options.guiScale.disabled=Disabled
 options.guiScale.small=Small
 options.guiScale.normal=Normal
 options.guiScale.large=Large
+options.guiScaleOverride=GUI Scale Override
+options.guiScaleOverride.disabled=Disabled
 options.advancedOpengl=Advanced OpenGL
 options.treeShadows=Leaf Shadowing
 options.transparencyDepthCheck=Translucent Depth Check
@@ -120,14 +123,13 @@ options.entityRenderDistance=Entity Render Distance
 options.entityRenderDistance.default=Default
 options.armorDurabilityOverlay=Armor Durability Overlay
 options.armorBarOverlay=Armor Bar Overlay
-options.overlayShowCoords=Coordinates
-options.overlayShowDirection=Direction
-options.overlayShowTime=Time
-options.overlayShowSeason=Season
-options.overlayShowWeather=Weather
-options.overlayShowBiome=Biome
+options.coordsInOverlay=Coordinates in Overlay
+options.directionInOverlay=Direction in Overlay
+options.timeInOverlay=Time in Overlay
+options.seasonInOverlay=Season in Overlay
+options.weatherInOverlay=Weather in Overlay
+options.biomeInOverlay=Biome in Overlay
 options.rawMouseInput=Raw Mouse Input
-options.heldItemCountOverlay=Held Item Count Overlay
 options.swapCraftingButtons=Swap Crafting Buttons
 options.fullscreen=Full Screen
 options.borderlessFullscreen=Borderless Fullscreen
@@ -135,7 +137,6 @@ options.borderlessFullscreen.unavailable=Not Available
 options.enableVbos=Enable VBOs
 options.discordRichPresence=Discord Rich Presence
 options.blockOutlineWidth=Outline Visibility
-options.heldItemTooltips=Held Item Tooltips
 options.colorCorrection=Color Correction
 options.colorCorrection.low=Low
 options.colorCorrection.high=High
@@ -225,6 +226,10 @@ options.musicFrequency.frequent=Frequent
 options.musicFrequency.default=Default
 options.musicFrequency.unusual=Unusual
 options.musicFrequency.rare=Rare
+options.selectedSoundtrack=Soundtrack
+options.selectedSoundtrack.minecraft=Minecraft
+options.selectedSoundtrack.better_than_adventure=BTA!
+options.selectedSoundtrack.mixed=Mixed
 
 options.fov.modification=Contextual FOV Modification
 options.screen.motion.effects=Screen Motion Effects
@@ -264,6 +269,91 @@ options.player.hurtsound=Hurt Sound
 options.player.hurtsound.masculine=Masculine
 options.player.hurtsound.feminine=Feminine
 options.player.hurtsound.neutral=Neutral
+
+options.hideHeldItemCount=Hide
+options.hideDynamicTooltip=Hide
+options.hideHealthBar=Hide
+options.hideOxygenBar=Hide
+options.hideFireBar=Hide
+options.hideAcidBar=Hide
+options.hideVehicleBar=Hide
+
+options.hideHelmetBar=Hide
+options.hideHelmetBar.never=Never
+options.hideHelmetBar.when_not_wearing=When Not Wearing
+options.hideHelmetBar.always=Always
+
+options.hideChestplateBar=Hide
+options.hideChestplateBar.never=Never
+options.hideChestplateBar.when_not_wearing=When Not Wearing
+options.hideChestplateBar.always=Always
+
+options.hideLeggingsBar=Hide
+options.hideLeggingsBar.never=Never
+options.hideLeggingsBar.when_not_wearing=When Not Wearing
+options.hideLeggingsBar.always=Always
+
+options.hideBootsBar=Hide
+options.hideBootsBar.never=Never
+options.hideBootsBar.when_not_wearing=When Not Wearing
+options.hideBootsBar.always=Always
+
+options.verticalHotBar=Vertical
+options.verticalHeldItemCount=Vertical
+options.verticalHealthBar=Vertical
+options.verticalOxygenBar=Vertical
+options.verticalVehicleBar=Vertical
+options.verticalFireBar=Vertical
+options.verticalAcidBar=Vertical
+
+options.flipHeldItemCount=Flip
+options.flipHelmetBar=Flip
+options.flipChestplateBar=Flip
+options.flipLeggingsBar=Flip
+options.flipBootsBar=Flip
+options.flipHealthBar=Flip
+options.flipOxygenBar=Flip
+options.flipVehicleBar=Flip
+options.flipFireBar=Flip
+options.flipAcidBar=Flip
+
+options.horizontalInfoTextAlignment=Horizontal Alignment
+options.horizontalInfoTextAlignment.left=Left
+options.horizontalInfoTextAlignment.center=Center
+options.horizontalInfoTextAlignment.right=Right
+
+options.horizontalLogTextAlignment=Horizontal Alignment
+options.horizontalLogTextAlignment.left=Left
+options.horizontalLogTextAlignment.center=Center
+options.horizontalLogTextAlignment.right=Right
+
+options.horizontalChatTextAlignment=Horizontal Alignment
+options.horizontalChatTextAlignment.left=Left
+options.horizontalChatTextAlignment.center=Center
+options.horizontalChatTextAlignment.right=Right
+options.horizontalSubtitleTextAlignment=Horizontal Alignment
+options.horizontalSubtitleTextAlignment.left=Left
+options.horizontalSubtitleTextAlignment.center=Center
+options.horizontalSubtitleTextAlignment.right=Right
+
+options.verticalInfoTextAlignment=Vertical Alignment
+options.verticalInfoTextAlignment.top=Top
+options.verticalInfoTextAlignment.center=Center
+options.verticalInfoTextAlignment.bottom=Bottom
+
+options.verticalLogTextAlignment=Vertical Alignment
+options.verticalLogTextAlignment.top=Top
+options.verticalLogTextAlignment.center=Center
+options.verticalLogTextAlignment.bottom=Bottom
+
+options.verticalChatTextAlignment=Vertical Alignment
+options.verticalChatTextAlignment.top=Top
+options.verticalChatTextAlignment.center=Center
+options.verticalChatTextAlignment.bottom=Bottom
+options.verticalSubtitleTextAlignment=Vertical Alignment
+options.verticalSubtitleTextAlignment.top=Top
+options.verticalSubtitleTextAlignment.center=Center
+options.verticalSubtitleTextAlignment.bottom=Bottom
 
 key.attack=Attack
 key.interact=Interact
@@ -314,13 +404,25 @@ key.autoWalk=Auto Walk
 key.easyBridge=Toggle Easy Bridge
 key.sprint=Sprint (if enabled)
 key.toggleDebug=Toggle Debug
-key.toggleOverlay=Toggle Overlays
+key.toggleInfoOverlay=Toggle Info Overlay
 key.sortInventory=Sort Inventory
 key.openAchievements=Open Achievements Menu
 key.openStatistics=Open Statistics Menu
 key.showConsole=Show Console
 key.description=Show item description
 key.disabled=Disabled
+
+key.hudEditorSelect=Select HUD Component
+key.hudEditorOpenContext=Open Component Context Menu
+key.hudEditorExit=Exit HUD Editor
+key.hudEditorReset=Reset HUD to Default
+key.hudEditorNudgeUp=Nudge Up Selected Component
+key.hudEditorNudgeDown=Nudge Down Selected Component
+key.hudEditorNudgeLeft=Nudge Left Selected Component
+key.hudEditorNudgeRight=Nudge Right Selected Component
+key.hudEditorNudgeFast=Nudge Selected Component Faster
+key.hudEditorOnboarding=Show HUD Editor Onboarding Screen
+
 key.debug.textureAtlas=Show Texture Atlas
 key.debug.textureAtlasLayer=Shift Texture Atlas Layer
 key.debug.reload=Reload textures

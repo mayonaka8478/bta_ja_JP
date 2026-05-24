@@ -88,13 +88,6 @@ damagetype.fire=Fire
 
 progress.tip=Tip: %s
 
-bed.occupied=This bed is occupied.
-bed.noSleep=You can only sleep at night or during thunderstorms.
-bed.setSpawn=Respawn point set.
-bed.notValid=Your home bed was missing or obstructed.
-bed.noAllowSleeping=Sleeping is disabled.
-bed.unsafeToSleep=It's not safe to sleep here.
-
 sign.image.none=None
 sign.image.arrow_right=Right Arrow
 sign.image.arrow_left=Left Arrow
@@ -153,12 +146,6 @@ record.strad=Strad
 record.ward=Ward
 record.wait=Wait
 record.dog=Dog
-
-flag.full=You have too many flags on this map!
-flag.overwrite=Cannot overwrite an existing pattern.
-flag.copied=Flag pattern copied.
-
-wand.wrongmode=You must be in Creative mode to use this item!
 
 save.data.missing.data=Level Metadata Missing!
 

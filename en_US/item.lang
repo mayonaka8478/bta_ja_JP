@@ -6,8 +6,8 @@ item.tool.pickaxe.iron.name=Iron Pickaxe
 item.tool.pickaxe.iron.desc=Pick some stone with this iron tool.
 item.tool.axe.iron.name=Iron Axe
 item.tool.axe.iron.desc=Chop some trees with this iron tool.
-item.tool.firestriker.name=Fire Striker
-item.tool.firestriker.desc=Don't even think about it.
+item.tool.firestriker.iron.name=Fire Striker
+item.tool.firestriker.iron.desc=Don't even think about it.
 item.tool.firestriker.steel.name=Steel Fire Striker
 item.tool.firestriker.steel.desc=Even more dangerous.
 item.food.apple.name=Apple
@@ -208,12 +208,6 @@ item.sign.painted.white.desc=Mark your land, or write a message.
 
 item.door.oak.name=Wooden Door
 item.door.oak.desc=Every house needs one.
-item.bucket.name=Bucket
-item.bucket.desc=Used to hold various liquids.
-item.bucket.water.name=Water Bucket
-item.bucket.water.desc=A bucket full of the deep blue.
-item.bucket.lava.name=Lava Bucket
-item.bucket.lava.desc=A bucket full of molten rock. Hot!
 item.minecart.name=Minecart
 item.minecart.desc=An iron vehicle for exploring the deep underground.
 item.saddle.name=Saddle
@@ -228,8 +222,6 @@ item.boat.name=Boat
 item.boat.desc=Sail the seven seas!
 item.leather.name=Leather
 item.leather.desc=A flat cow. Can be used to make armor.
-item.bucket.milk.name=Bucket of Milk
-item.bucket.milk.desc=Good for your bones.
 item.brick.clay.name=Clay Brick
 item.brick.clay.desc=Put 4 of these together to create a solid foundation.
 item.clay.name=Clay
@@ -332,6 +324,8 @@ item.bed.name=Bed
 item.bed.desc=Take a nap overnight.
 item.repeater.name=Redstone Repeater
 item.repeater.desc=Delays a redstone signal.
+item.timer.name=Redstone Timer
+item.timer.desc=Continuously switches between two outputs.
 item.map.name=Map
 item.map.blank.name=Blank Map
 item.map.desc=Chart your land!
@@ -369,14 +363,34 @@ item.ammo.pebble.name=Pebble
 item.ammo.pebble.desc=A chunk of rock found buried in the soil.
 item.food.cherry.name=Cherries
 item.food.cherry.desc=Red berries that come in pairs.
-item.bucket.icecream.name=Bucket of Ice Cream
-item.bucket.icecream.desc=A frosty treat sprinkled with chocolate chips and a cherry!
 item.ammo.fireball.name=Fire Charge
 item.ammo.fireball.desc=Ammo for a hand cannon. Scatters fire over a wide area.
 item.ammo.arrow.purple.name=Purple Arrow
 item.ammo.arrow.purple.desc=How did you get this?!
 item.label.name=Label
 item.label.desc=Allows you to name items and creatures. Can be dyed.
+
+item.bucket.iron.name=Iron Bucket
+item.bucket.iron.desc=Used to hold various liquids.
+item.bucket.iron.water.name=Iron Water Bucket
+item.bucket.iron.water.desc=A bucket full of the deep blue.
+item.bucket.iron.lava.name=Iron Lava Bucket
+item.bucket.iron.lava.desc=A bucket full of molten rock. Hot!
+item.bucket.iron.milk.name=Iron Bucket of Milk
+item.bucket.iron.milk.desc=Good for your bones.
+item.bucket.iron.icecream.name=Iron Bucket of Ice Cream
+item.bucket.iron.icecream.desc=A frosty treat sprinkled with chocolate chips and a cherry!
+
+item.bucket.steel.name=Steel Bucket
+item.bucket.steel.desc=Used to hold various liquid.
+item.bucket.steel.water.name=Steel Water Bucket
+item.bucket.steel.water.desc=A large bucket full of the deep blue.
+item.bucket.steel.lava.name=Steel Lava Bucket
+item.bucket.steel.lava.desc=A large bucket full of molten rock. Hot!
+item.bucket.steel.milk.name=Steel Bucket of Milk
+item.bucket.steel.milk.desc=Excessively good for your bones!
+item.bucket.steel.icecream.name=Steel Bucket of Ice Cream
+item.bucket.steel.icecream.desc=Maybe a little too much ice cream...
 
 item.candle.soulwax.name=Soul Wax Candle
 item.candle.soulwax.desc=A waxy brown candle that glows with an unnatural light.
@@ -476,28 +490,23 @@ item.jar.butterfly.silver.name=Silver Butterfly Jar
 item.jar.butterfly.silver.desc=A glass jar containing a silver butterfly.
 
 item.statue.stone.name=Stone Statue
-item.statue.stone.desc=A decorative stone statue for you to hang your armor.
+item.statue.stone.desc=A decorative statue carved out of stone.
 item.statue.basalt.name=Basalt Statue
-item.statue.basalt.desc=A decorative basalt statue for you to hang your armor.
+item.statue.basalt.desc=A decorative statue carved out of basalt.
 item.statue.limestone.name=Limestone Statue
-item.statue.limestone.desc=A decorative limestone statue for you to hang your armor.
+item.statue.limestone.desc=A decorative statue carved out of limestone.
 item.statue.granite.name=Granite Statue
-item.statue.granite.desc=A decorative granite statue for you to hang your armor.
+item.statue.granite.desc=A decorative statue carved out of granite.
 item.statue.marble.name=Marble Statue
-item.statue.marble.desc=A decorative marble statue for you to hang your armor.
+item.statue.marble.desc=A decorative statue carved out of marble.
 item.statue.pigman.name=Pigman Statue
 item.statue.pigman.desc=An ancient marble statue found in a long-forgotten place.
 
 item.dough.name=Dough
 item.dough.desc=Uncooked dough. Can be baked into bread.
 
-item.rubyglass.crystal.cracked.name=Rubyglass Shards
-item.rubyglass.crystal.cracked.desc=Cracked and full of impurities. But still aesthetically pleasing.
-item.rubyglass.crystal.pure.name=Rubyglass
-item.rubyglass.crystal.pure.desc=A shard of charged Rubyglass crystal, brimming with energy. Perfectly intact and slightly translucent.
-
-item.sulfur.name=Sulfur
-item.sulfur.desc=Highly flammable and yellow. Packs a punch.
+item.rubyglass.crystal.name=Rubyglass
+item.rubyglass.crystal.desc=A shard of charged rubyglass, brimming with energy.
 
 item.armor.wolf.leather.name=Leather Wolf Armor
 item.armor.wolf.leather.desc=Keep your best friend safe with this soft leather shell.
@@ -511,3 +520,62 @@ item.armor.wolf.gold.name=Gold Wolf Armor
 item.armor.wolf.gold.desc=Keep your best friend fabulous with this shiny gold shell.
 item.armor.wolf.steel.name=Steel Wolf Armor
 item.armor.wolf.steel.desc=Keep your best friend safe with this sturdy steel shell.
+
+
+item.paintbrush.black.name=Black Paintbrush
+item.paintbrush.black.desc=Loaded with black dye and ready for use!
+item.paintbrush.red.name=Red Paintbrush
+item.paintbrush.red.desc=Loaded with red dye and ready for use!
+item.paintbrush.green.name=Green Paintbrush
+item.paintbrush.green.desc=Loaded with green dye and ready for use!
+item.paintbrush.brown.name=Brown Paintbrush
+item.paintbrush.brown.desc=Loaded with brown dye and ready for use!
+item.paintbrush.blue.name=Blue Paintbrush
+item.paintbrush.blue.desc=Loaded with blue dye and ready for use!
+item.paintbrush.purple.name=Purple Paintbrush
+item.paintbrush.purple.desc=Loaded with purple dye and ready for use!
+item.paintbrush.cyan.name=Cyan Paintbrush
+item.paintbrush.cyan.desc=Loaded with cyan dye and ready for use!
+item.paintbrush.silver.name=Light Gray Paintbrush
+item.paintbrush.silver.desc=Loaded with light gray dye and ready for use!
+item.paintbrush.gray.name=Gray Paintbrush
+item.paintbrush.gray.desc=Loaded with gray dye and ready for use!
+item.paintbrush.pink.name=Pink Paintbrush
+item.paintbrush.pink.desc=Loaded with pink dye and ready for use!
+item.paintbrush.yellow.name=Yellow Paintbrush
+item.paintbrush.yellow.desc=Loaded with yellow dye and ready for use!
+item.paintbrush.lime.name=Lime Paintbrush
+item.paintbrush.lime.desc=Loaded with lime dye and ready for use!
+item.paintbrush.lightblue.name=Light Blue Paintbrush
+item.paintbrush.lightblue.desc=Loaded with light blue dye and ready for use!
+item.paintbrush.magenta.name=Magenta Paintbrush
+item.paintbrush.magenta.desc=Loaded with magenta dye and ready for use!
+item.paintbrush.orange.name=Orange Paintbrush
+item.paintbrush.orange.desc=Loaded with orange dye and ready for use!
+item.paintbrush.white.name=White Paintbrush
+item.paintbrush.white.desc=Loaded with white dye and ready for use!
+
+item.statue.slate.name=Slate Statue
+item.statue.slate.desc=A decorative statue carved from slate.
+
+item.statue.permafrost.name=Permafrost Statue
+item.statue.permafrost.desc=A decorative statue carved from freezing permafrost.
+
+item.statue.netherrack.name=Netherrack Statue
+item.statue.netherrack.desc=A decorative statue carved from netherrack.
+
+item.statue.gloomstone.name=Gloomstone Statue
+item.statue.gloomstone.desc=A decorative statue carved from gloomy stone.
+
+item.ammo.arrow.flaming.name=Flaming Arrow
+item.ammo.arrow.flaming.desc=An arrow tipped with highly flammable sulfur.
+
+item.sulfur.name=Sulfur
+item.sulfur.desc=A pungent, flammable powder sourced from acidic pools.
+
+item.bucket.iron.acid.name=Iron Acid Bucket
+item.bucket.iron.acid.desc=A bucket carefully filled with vile acid.
+
+item.bucket.steel.acid.name=Steel Acid Bucket
+item.bucket.steel.acid.desc=A large bucket carefully filled with vile acid.
+
