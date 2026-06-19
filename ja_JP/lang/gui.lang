@@ -7,14 +7,14 @@ gui.achievements.button.done=完了
 gui.achievements.label.title=実績
 gui.achievements.label.taken=獲得！
 gui.achievements.label.requires=「%1$s」が必要です
-gui.achievements.label.completion=%1$s Complete!
+gui.achievements.label.completion=%1$s達成済み
 
-gui.achievements.page.vanilla.name=Vanilla
-gui.achievements.page.vanilla.desc=Achievements from Better than Adventure!
-gui.achievements.page.overworld.name=Overworld
-gui.achievements.page.overworld.desc=Achievements of the starting dimension!
-gui.achievements.page.nether.name=Nether
-gui.achievements.page.nether.desc=Achievements from Hell!
+gui.achievements.page.vanilla.name=バニラ
+gui.achievements.page.vanilla.desc=Better than Adventure!の実績
+gui.achievements.page.overworld.name=オーバーワールド
+gui.achievements.page.overworld.desc=始まりの地における実績
+gui.achievements.page.nether.name=ネザー
+gui.achievements.page.nether.desc=地獄における実績
 
 gui.add_server.label.title=サーバーを追加
 gui.add_server.button.save=保存
@@ -26,33 +26,34 @@ gui.add_server.label.server_name=サーバー名
 gui.add_server.label.ip_address=IPアドレス
 
 gui.bad_java_arch.label.title=32-bit Javaが検出されました！
-gui.bad_java_arch.label.body.1=32-bit JavaでBetter than Adventureを実行しているようですが
+gui.bad_java_arch.label.body.1=32-bit JavaでBetter than Adventure!を実行しているようですが
 gui.bad_java_arch.label.body.2=これにより、ラグの増加やクラッシュなどのメモリ割り当ての
 gui.bad_java_arch.label.body.3=問題が発生する可能性があります
 gui.bad_java_arch.label.body.4=Eclipse Temurin等の64-bit JREを使用することをご検討ください
 gui.bad_java_arch.button.download=ダウンロード
 gui.bad_java_arch.button.continue=続ける
 
-gui.no_jce.label.title=Java Cryptography Extension (JCE) not present!
-gui.no_jce.label.body.1=It looks like you're running Better than Adventure! without JCE.
-gui.no_jce.label.body.2=This will break some network related features like downloading
-gui.no_jce.label.body.3=sounds and multiplayer chatting!
-gui.no_jce.label.body.4=Please consider downloading a more up to date JRE
-gui.no_jce.label.body.5=with the extension included such as Eclipse Temurin.
-gui.no_jce.label.body.intel.disclaimer.1=Due to hardware compatibility issues on Intel Graphics hardware
-gui.no_jce.label.body.intel.disclaimer.2=you will likely have to patch your existing Java install to
-gui.no_jce.label.body.intel.disclaimer.3=include the JCE extension.
-gui.no_jce.button.download.recommended=Java Download (Recommended!)
+gui.no_jce.label.title=§l§4Java Cryptography Extension (JCE)が存在しません！§r
+gui.no_jce.label.body.1=JCEを使用せずBetter than Adventure!を実行しているようですが
+gui.no_jce.label.body.2=§l§eこれにより、マルチプレイをはじめとした一部の機能が動作しません§r
+gui.no_jce.label.body.3=
+gui.no_jce.label.body.4=Eclipse Temurin等の、拡張機能の組み込まれた
+gui.no_jce.label.body.5=最新のJCEをダウンロードすることを推奨します
+gui.no_jce.label.body.intel.disclaimer.1=Intel Graphicsハードウェアの互換性問題により
+gui.no_jce.label.body.intel.disclaimer.2=既存のJavaにJCE拡張機能を追加するためのパッチを
+gui.no_jce.label.body.intel.disclaimer.3=適用する必要があるかもしれません
+gui.no_jce.button.download.recommended=Javaのダウンロード(推奨)
 gui.no_jce.button.download=Java Download
 gui.no_jce.button.upgrade=JCE Patch
-gui.no_jce.button.upgrade.recommended=JCE Patch (Recommended!)
-gui.no_jce.button.continue=Continue
+gui.no_jce.button.upgrade.recommended=JCEパッチのダウンロード(推奨)
+gui.no_jce.button.back=メインメニュー
+gui.no_jce.button.continue=警告を無視
 
 gui.no_minecraft.label.title=Minecraft Beta 1.7.3が見つかりません！
-gui.no_minecraft.label.body.1=Minecraft Beta 1.7.3を未インストールの状態でBetter than Adventureを実行しているようです
-gui.no_minecraft.label.body.2=Better than Adventureを正しく動作させるには、
+gui.no_minecraft.label.body.1=Minecraft Beta 1.7.3を未インストールの状態でBetter than Adventure!を実行しているようです
+gui.no_minecraft.label.body.2=Better than Adventure!を正しく動作させるには、
 gui.no_minecraft.label.body.3=公式のMinecraft Beta 1.7.3をインストールする必要があります
-gui.no_minecraft.label.body.4=このエラーは基本、Better than Adventureのインストールをする過程において何らかのミスをした場合に起こります
+gui.no_minecraft.label.body.4=このエラーは基本、Better than Adventure!のインストールをする過程において何らかのミスをした場合に起こります
 gui.no_minecraft.label.body.5=下記リンクのインストールガイドをご覧ください
 gui.no_minecraft.button.guide=インストールガイド
 gui.no_minecraft.button.quit=終了
@@ -109,8 +110,8 @@ gui.create_world.pages.game_rules.title=ゲームルール
 gui.dispenser.label.dispenser=ディスペンサー
 gui.dispenser.label.inventory=持ち物
 
-gui.activator.label.activator=Activator
-gui.activator.label.inventory=Inventory
+gui.activator.label.activator=アクティベーター
+gui.activator.label.inventory=持ち物
 
 gui.downloading_terrain.label.title=地形情報をダウンロード中
 
