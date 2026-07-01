@@ -171,7 +171,7 @@ bta_ja_JP/
 
 > **補足 / Note**
 > `keyboard.json`（言語ごとのキーボード配列）と `worldnames.txt`（ワールド名のランダム生成リスト）は、通常は翻訳の必要がありません。
-> <sub>`keyboard.json` (per-language keyboard layout) and `worldnames.txt` (the random world-name list) usually don't need translating.</sub>
+> <br><sub>`keyboard.json` (per-language keyboard layout) and `worldnames.txt` (the random world-name list) usually don't need translating.</sub>
 
 <details>
 <summary><b>旧バージョンの参考資料 / Legacy reference files（クリックで展開）</b></summary>
