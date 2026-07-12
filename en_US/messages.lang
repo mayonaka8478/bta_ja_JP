@@ -25,6 +25,7 @@ messages.flag.copied=Flag pattern copied.
 
 messages.death.mob.generic=%s died.
 messages.death.mob.lava=%s swam in lava.
+messages.death.mob.acid=%s bathed in acid.
 messages.death.mob.spikes=%s got impaled.
 messages.death.mob.fall=%s broke their legs.
 messages.death.mob.drowned=%s suffocated.
@@ -33,6 +34,7 @@ messages.death.mob.killed_by=%s was killed by %s.
 
 messages.death.player.generic=%s died mysteriously.
 messages.death.player.lava=%s got lost in the sauce.
+messages.death.player.acid=%s is no longer a solid.
 messages.death.player.spikes=%s fell for the trap.
 messages.death.player.fall=%s forgot to tie their laces.
 messages.death.player.drowned=%s is sleeping with the fishes.

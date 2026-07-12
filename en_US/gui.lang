@@ -7,6 +7,8 @@ gui.achievements.button.done=Done
 gui.achievements.label.title=Achievements
 gui.achievements.label.taken=Taken!
 gui.achievements.label.requires=Requires '%1$s'
+gui.achievements.label.secret=???
+gui.achievements.label.secret.desc=???
 gui.achievements.label.completion=%1$s Complete!
 
 gui.achievements.page.vanilla.name=Vanilla
@@ -273,6 +275,10 @@ gui.options.page.debug.category.test=Tests
 gui.options.page.debug.button.open.model_viewer=Open Model Viewer
 gui.options.page.debug.button.open.biome_finder=Open Seed Viewer
 gui.options.page.debug.button.open.datadumper=Run Data Dumper
+gui.options.page.debug.button.dump.wiki=Dump Formatted Wiki Data
+gui.options.page.debug.button.dump.invsprite=Dump InvSprites PNG
+gui.options.page.debug.button.dump.invsprite_apng=Dump InvSprites Animated PNG
+gui.options.page.debug.button.dump.invsprite.tooltip=Load a world first: \n Biome and season colors only render in-world.
 gui.options.page.debug.button.open.sound_test=Open Sound Test
 gui.options.page.debug.button.open.texture_viewer=Open Texture Viewer
 gui.options.page.debug.button.open.font_tester=Open Font Test
@@ -286,6 +292,7 @@ gui.options.page.debug.button.crash.hard=Crash Hard
 gui.options.page.debug.button.music.skip=Force Ambient Music
 gui.options.page.debug.button.garbage_collect=Run Garbage Collector
 gui.options.page.debug.button.reload_commands=Reload Commands
+gui.options.page.debug.button.reset_hud_onboarding=Reset HUD Editor Onboarding
 
 gui.options.page.hidden.title=Hidden Options
 gui.options.page.hidden.category.general=General
